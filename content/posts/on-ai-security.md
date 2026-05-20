@@ -4,20 +4,18 @@ date: 2026-05-20T14:21:20+00:00
 draft: false
 categories:
   - research
-author: "DedSec-Terminal"
 ---
 
-Measuring the security of artificial intelligence (AI) systems is a complex task that cannot be accomplished by simply maximizing security and privacy benchmarks. Benchmarks are ineffective in measuring AI capabilities, particularly when it comes to emergent systemic properties like security. To address this challenge, it's essential to understand how security is measured in the first place. Over the past 30 years, security engineering for software has evolved significantly, from black box penetration testing to process-driven standards like the Building Security In Maturity Model (BSIMM).
+The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems. It explains that traditional software security benchmarks are not effective for AI, as they do not account for the complex and emergent properties of AI systems. The article suggests that a more process-driven approach, similar to the Building Security In Maturity Model (BSIMM) used in software security, may be more effective for AI security.
 
-The evolution of software security engineering has had a profound impact on business operations, and it's likely that AI will have an even more significant impact. As a result, a similar measurement approach may be applicable to AI security. However, it's crucial to recognize that AI security is distinct from software security, and a direct translation of measurement methods may not be possible. Instead, making progress in AI security requires a focus on identifying and applying good assurance processes, such as cleaning up data and managing risk.
+The article highlights the importance of identifying and applying good assurance processes to manage risk in AI systems. However, it notes that even with these efforts, it is unlikely that a single "security meter" for AI will be developed, and therefore, extra vigilance is required to ensure the security of AI systems.
 
-A key challenge in AI security is the lack of a clear "security meter" that can provide a definitive measure of an AI system's security. This means that relying solely on benchmarks or metrics is insufficient, and a more nuanced approach is necessary. By acknowledging the limitations of current measurement methods and adopting a more vigilant approach to security, organizations can make meaningful progress in securing their AI systems. This involves a combination of risk management, process-driven standards, and a deep understanding of the unique security challenges posed by AI.
+The article also touches on the idea that AI is likely to have a deeper impact on business operations than software, and therefore, it is crucial to develop effective security measures for AI systems. The tone of the article is cautionary, emphasizing the need for careful consideration and attention to security in the development and deployment of AI systems.
 
-The development of effective AI security measures will likely involve a continuous process of refinement and adaptation. As AI technologies continue to evolve, new security challenges will emerge, and organizations must be prepared to respond. By prioritizing good assurance processes, managing risk, and staying vigilant, organizations can reduce the likelihood of security breaches and ensure the secure operation of their AI systems. Ultimately, the goal is to create a robust and adaptable security framework that can keep pace with the rapid evolution of AI technologies.
+The inclusion of the ASCII art cat and the phrase "MKULTRA NEVER STOPPED" at the end of the article appears to be a non-sequitur and may be a joke or a reference to a conspiracy theory. It does not seem to be related to the main topic of the article.
 
 ---
 
-> *All the great performers I have worked with are fuelled by a personal dream.
-Author: John Eliot*
+> *Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)
