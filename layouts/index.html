@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<div class="post-content">
+
+  <h1>DedSec-Terminal</h1>
+  <p>
+    Cyber Threat Intelligence, Data Breaches,
+    Vulnerabilities, Malware Tracking & Security Research.
+  </p>
+
+  <hr>
+
+  <!-- Latest Post -->
+  <h2>Latest Intelligence</h2>
+
+  {{ range first 1 (where .Site.RegularPages "Section" "posts") }}
+    <article>
+      <h3>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+
+      <small>
+        Posted on {{ .Date.Format "Jan 02, 2006" }}
+      </small>
+
+      <p>{{ .Summary }}</p>
+    </article>
+  {{ end }}
+
+  <hr>
+
+  <!-- Threat Intelligence -->
+  <h2>Threat Intelligence</h2>
+
+  {{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "threat-intelligence")) }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      — {{ .Date.Format "Jan 02, 2006" }}
+    </p>
+  {{ end }}
+
+  <!-- Data Breaches -->
+  <h2>Data Breaches</h2>
+
+  {{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "data-breaches")) }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      — {{ .Date.Format "Jan 02, 2006" }}
+    </p>
+  {{ end }}
+
+  <!-- Vulnerabilities -->
+  <h2>Vulnerabilities / CVEs</h2>
+
+  {{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "vulnerabilities")) }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      — {{ .Date.Format "Jan 02, 2006" }}
+    </p>
+  {{ end }}
+
+  <!-- Malware -->
+  <h2>Malware & Ransomware</h2>
+
+  {{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "malware")) }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      — {{ .Date.Format "Jan 02, 2006" }}
+    </p>
+  {{ end }}
+
+  <!-- Research -->
+  <h2>Security Research</h2>
+
+  {{ range first 5 (where .Site.RegularPages "Params.categories" "intersect" (slice "research")) }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      — {{ .Date.Format "Jan 02, 2006" }}
+    </p>
+  {{ end }}
+
+</div>
+
+{{ end }}
