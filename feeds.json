@@ -1,0 +1,16 @@
+{
+  "threat-intelligence": [
+    "https://feeds.feedburner.com/TheHackersNews",
+    "https://krebsonsecurity.com/feed/",
+    "https://www.bleepingcomputer.com/feed/"
+  ],
+  "data-breaches": [
+    "https://databreaches.net/feed/"
+  ],
+  "vulnerabilities": [
+    "https://www.cisa.gov/news.xml"
+  ],
+  "malware": [
+    "https://www.bleepingcomputer.com/feed/"
+  ]
+}

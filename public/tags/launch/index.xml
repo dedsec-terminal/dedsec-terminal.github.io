@@ -6,19 +6,6 @@
     <description>Recent content in Launch on DedSec-Terminal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/launch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DedSec-Terminal Online</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;DedSec-Terminal is now online.&lt;/p&gt;
-&lt;p&gt;This platform focuses on cybersecurity intelligence, data breaches, vulnerabilities, malware tracking, and security research.&lt;/p&gt;
-&lt;p&gt;Originally reported by: DedSec-Terminal&lt;/p&gt;
-&lt;p&gt;────────────────&lt;/p&gt;
-&lt;p&gt;“Trust arrives on foot and leaves on horseback.”
-— Dutch proverb&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
