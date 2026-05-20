@@ -13,7 +13,7 @@ AI agents are shortcut-seekers by design. When given a task, they are trained to
 
 ---
 
-> *Real success is finding your lifework in the work that you love.
-Author: David McCullough*
+> *We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light.
+Author: Ralph Emerson*
 
 Source: [Agent AI is Coming. Are You Ready?](https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html)

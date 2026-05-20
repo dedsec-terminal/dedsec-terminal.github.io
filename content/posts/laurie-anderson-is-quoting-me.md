@@ -17,7 +17,7 @@ If you think cryptography can solve your problem, you don
 
 ---
 
-> *Set your goals high, and don't stop till you get there.
-Author: Bo Jackson*
+> *Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.
+Author: Doug Larson*
 
 Source: [Laurie Anderson Is Quoting Me](https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html)

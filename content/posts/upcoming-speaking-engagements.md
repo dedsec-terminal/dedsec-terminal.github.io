@@ -20,7 +20,7 @@ Have fun 😉
 
 ---
 
-> *Without this playing with fantasy no creative work has ever yet come to birth. The debt we owe to the play of the imagination is incalculable.
-Author: Carl Jung*
+> *Moral excellence comes about as a result of habit. We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.
+Author: Aristotle*
 
 Source: [Upcoming Speaking Engagements](https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html)

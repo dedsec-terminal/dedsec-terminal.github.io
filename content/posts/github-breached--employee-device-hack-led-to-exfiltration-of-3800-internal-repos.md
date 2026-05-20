@@ -13,7 +13,7 @@ The development comes after TeamPCP, a threat actor behind a string of software 
 
 ---
 
-> *Responsibility is not inherited, it is a choice that everyone needs to make at some point in their life.
-Author: Byron Pulsifer*
+> *Nature gave us one tongue and two ears so we could hear twice as much as we speak.
+Author: Epictetus*
 
 Source: [GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)

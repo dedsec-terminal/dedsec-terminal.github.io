@@ -14,7 +14,7 @@ The open-source visualization software maker also noted that the breac
 
 ---
 
-> *To be beautiful means to be yourself. You don�t need to be accepted by others. You need to accept yourself.
-Author: Thich Nhat Hanh*
+> *Patience is the companion of wisdom.
+Author: Saint Augustine*
 
 Source: [Grafana GitHub Breach Exposes Source Code via TanStack npm Attack](https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html)

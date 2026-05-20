@@ -12,7 +12,7 @@ Across the web and on Telegram, there’s a “thriving” ecosystem of software
 
 ---
 
-> *Fame usually comes to those who are thinking about something else.
-Author: Holmes*
+> *I'm not afraid of storms, for Im learning how to sail my ship.
+Author: Louisa Alcott*
 
 Source: [Your iPhone Gets Stolen. Then the Hacking Begins](https://www.wired.com/story/your-iphone-gets-stolen-then-the-hacking-begins/)

@@ -13,7 +13,6 @@ Several company spokespeople were quick to say their companies supported the leg
 
 ---
 
-> *Victory belongs to the most persevering.
-Author: Napoleon Bonaparte*
+> *Peace of mind is not the absence of conflict from life, but the ability to cope with it.*
 
 Source: [You Can Get Some of Your Nudes Removed From the Internet Under a New Law](https://www.wired.com/story/how-to-remove-nudes-take-it-down-act/)
