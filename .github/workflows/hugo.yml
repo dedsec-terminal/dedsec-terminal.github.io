@@ -34,7 +34,7 @@ jobs:
           hugo-version: latest
           extended: true
 
-      - name: Build
+      - name: Build Hugo Site
         run: hugo
 
       - name: Setup Pages
@@ -45,6 +45,6 @@ jobs:
         with:
           path: ./public
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,20 +1,19 @@
-name: RSS Feed Update
+name: RSS Intel Pipeline
 
 on:
-  workflow_dispatch:
-
   schedule:
     - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-rss:
+  rss:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -24,25 +23,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser requests trafilatura groq
 
-      - name: Run RSS Fetcher
+      - name: Run RSS Engine
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python scripts/rss_fetcher.py
 
-      - name: Commit and Push Changes
+      - name: Commit generated posts
         run: |
-          git config --global user.name "DedSec-Terminal Bot"
-          git config --global user.email "actions@github.com"
+          git config user.name "DedSec-Terminal Bot"
+          git config user.email "actions@github.com"
 
-          git add content/posts
+          git add content/posts data
 
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto RSS update"
-            git push
-          fi
+          git commit -m "RSS Intel Update" || echo "No changes"
+          git push

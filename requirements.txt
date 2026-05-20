@@ -3,3 +3,4 @@ trafilatura
 requests
 lxml
 beautifulsoup4
+groq

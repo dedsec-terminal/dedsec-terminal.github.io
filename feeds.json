@@ -1,16 +1,29 @@
 {
-  "threat-intelligence": [
+  "threat-intel": [
     "https://feeds.feedburner.com/TheHackersNews",
     "https://krebsonsecurity.com/feed/",
     "https://www.bleepingcomputer.com/feed/"
   ],
+
   "data-breaches": [
-    "https://databreaches.net/feed/"
+    "https://www.bleepingcomputer.com/feed/",
+    "https://krebsonsecurity.com/feed/"
   ],
-  "vulnerabilities": [
-    "https://www.cisa.gov/news.xml"
+
+  "cves": [
+    "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "https://www.zerodayinitiative.com/rss/published/"
   ],
+
   "malware": [
-    "https://www.bleepingcomputer.com/feed/"
+    "https://securelist.com/feed/",
+    "https://www.bleepingcomputer.com/feed/",
+    "https://www.microsoft.com/en-us/security/blog/feed/"
+  ],
+
+  "research": [
+    "https://www.schneier.com/feed/atom/",
+    "https://www.wired.com/feed/category/security/rss",
+    "https://www.vice.com/en/rss/topic/tech"
   ]
 }

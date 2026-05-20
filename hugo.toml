@@ -3,18 +3,29 @@ languageCode = "en-us"
 title = "DedSec-Terminal"
 theme = "PaperMod"
 
-[pagination]
-pagerSize = 12
-
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
 
+# =========================
+# PAGINATION (FIXED)
+# =========================
+paginate = 12
+
+# =========================
+# TAXONOMY (STABLE)
+# =========================
 [taxonomies]
 category = "categories"
 tag = "tags"
 
+# =========================
+# OUTPUTS
+# =========================
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# =========================
+# SITE PARAMS
+# =========================
 [params]
 description = "Cyber Threat Intelligence & Security Research"
 author = "DedSec-Terminal"
@@ -25,27 +36,18 @@ disableThemeToggle = true
 ShowReadingTime = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowRssButtonInSectionTermList = true
 
-homeInfoParams = false
+mainSections = ["posts"]
 
-mainSections = [
-  "threat-intelligence",
-  "data-breaches",
-  "vulnerabilities",
-  "malware",
-  "research"
-]
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
+# =========================
+# MENU (MATCHES RSS + INDEX.HTML)
+# =========================
 [[menu.main]]
-identifier = "threat-intelligence"
+identifier = "threat-intel"
 name = "Threat Intel"
-url = "/categories/threat-intelligence/"
+url = "/categories/threat-intel/"
 weight = 10
 
 [[menu.main]]
@@ -55,9 +57,9 @@ url = "/categories/data-breaches/"
 weight = 20
 
 [[menu.main]]
-identifier = "vulnerabilities"
+identifier = "cves"
 name = "CVEs"
-url = "/categories/vulnerabilities/"
+url = "/categories/cves/"
 weight = 30
 
 [[menu.main]]
@@ -69,5 +71,5 @@ weight = 40
 [[menu.main]]
 identifier = "research"
 name = "Research"
-url = "/research/"
+url = "/categories/research/"
 weight = 50

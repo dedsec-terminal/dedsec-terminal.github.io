@@ -6,106 +6,113 @@
     <description>Recent content on DedSec-Terminal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 16:24:52 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Canvas Breach Disrupts Schools &amp; Colleges Nationwide</title>
-      <link>http://localhost:1313/posts/canvas-breach-disrupts-schools-colleges-nationwide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/canvas-breach-disrupts-schools-colleges-nationwide/</guid>
-      <description>&lt;p&gt;An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service’s login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.&lt;/p&gt;
-&lt;p&gt;Canvas parent firm Instructure responded to today’s defacement attacks by disabling the platform, which is used by thousands of schools, universities and businesses to manage coursework and assignments, and to communicate with students.&lt;/p&gt;</description>
+      <title>A New York Cop Got Injured at a Boxing Match. Now Madison Square Garden Is Banning His Lawyer</title>
+      <link>http://localhost:1313/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/</link>
+      <pubDate>Wed, 20 May 2026 16:24:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/</guid>
+      <description>&lt;p&gt;A New York police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden during a boxing match. The officer, a seven-year veteran of the NYPD, was knocked to the ground and pinned beneath several people during a scuffle involving the rapper Lil Tjay and his entourage. Przybyszewski claims to have suffered significant cervical and lumbar spine injuries, some of which are permanent, and has sued both Lil Tjay and Madison Square Garden. His lawyer, John Scola, who frequently represents NYPD officers in disputes, filed the lawsuit in February of this year, alleging that the Garden&amp;rsquo;s operational decisions placed Przybyszewski in harm&amp;rsquo;s way.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Chairman Cassidy, Tuberville Seek Answers on Canvas Cybersecurity Incident, Calls for More Safeguards to Protect Students</title>
-      <link>http://localhost:1313/posts/chairman-cassidy-tuberville-seek-answers-on-canvas-cybersecurity-incident-calls-/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chairman-cassidy-tuberville-seek-answers-on-canvas-cybersecurity-incident-calls-/</guid>
-      <description>&lt;p&gt;This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.&lt;/p&gt;
-&lt;p&gt;You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.&lt;/p&gt;</description>
+      <title>On AI Security</title>
+      <link>http://localhost:1313/posts/on-ai-security/</link>
+      <pubDate>Wed, 20 May 2026 14:21:20 +0000</pubDate>
+      <guid>http://localhost:1313/posts/on-ai-security/</guid>
+      <description>&lt;p&gt;Measuring the security of artificial intelligence (AI) systems is a complex task that cannot be accomplished by simply maximizing security and privacy benchmarks. Benchmarks are ineffective in measuring AI capabilities, particularly when it comes to emergent systemic properties like security. To address this challenge, it&amp;rsquo;s essential to understand how security is measured in the first place. Over the past 30 years, security engineering for software has evolved significantly, from black box penetration testing to process-driven standards like the Building Security In Maturity Model (BSIMM).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>CISA Admin Leaked AWS GovCloud Keys on Github</title>
-      <link>http://localhost:1313/posts/cisa-admin-leaked-aws-govcloud-keys-on-github/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cisa-admin-leaked-aws-govcloud-keys-on-github/</guid>
-      <description>&lt;p&gt;Until this past weekend, a contractor for the Cybersecurity &amp;amp; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.&lt;/p&gt;
-&lt;p&gt;On May 15, KrebsOnSecurity heard from Guillaume Valadon, a researcher with the security firm GitGuardian. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. Valadon said he reached out because the owner in this case wasn’t responding and the information exposed was highly sensitive.&lt;/p&gt;</description>
+      <title>How an image could compromise your Mac: understanding an ExifTool vulnerability (CVE-2026-3102)</title>
+      <link>http://localhost:1313/posts/how-an-image-could-compromise-your-mac-understanding-an-exiftool-vulnerability-cve-2026-31/</link>
+      <pubDate>Wed, 20 May 2026 09:02:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-an-image-could-compromise-your-mac-understanding-an-exiftool-vulnerability-cve-2026-31/</guid>
+      <description>&lt;p&gt;A vulnerability, designated as CVE-2026-3102, was discovered in ExifTool, a utility used for reading and writing metadata in various file types. This flaw affects macOS systems with ExifTool version 13.49 and earlier, allowing an attacker to execute arbitrary shell commands with the privileges of the user invoking ExifTool. The vulnerability is triggered when the -n flag is used, which outputs machine-readable data without additional processing. An attacker can hide malicious instructions inside an image file&amp;rsquo;s metadata, specifically in the FileCreateDate parameter, by injecting quotes into this field.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>CISA and U.S. Government Partners Unveil Guide to Accelerate Zero Trust Adoption in Operational Technology</title>
-      <link>http://localhost:1313/posts/cisa-and-us-government-partners-unveil-guide-to-accelerate-zero-trust-adoption-i/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cisa-and-us-government-partners-unveil-guide-to-accelerate-zero-trust-adoption-i/</guid>
-      <description>&lt;p&gt;CISA and U.S. Government Partners Unveil Guide to Accelerate Zero Trust Adoption in Operational Technology&lt;/p&gt;
-&lt;p&gt;WASHINGTON – The Cybersecurity and Infrastructure Security Agency (CISA), along with the Department of War (DoW), Department of Energy (DOE), Federal Bureau of Investigation (FBI) and Department of State (DOS) today published a joint guide to assist organizations with operational technology (OT) systems - including government systems – with applying Zero Trust principles. The guide, Adapting Zero Trust Principles to Operational Technology, provides OT owners and operators and Zero Trust practitioners with practical insights on overcoming unique constraints, addressing potential challenges, and prioritizing key areas for integrating Zero Trust into OT environments.&lt;/p&gt;</description>
+      <title>Data Brokers’ and AI Firms’ Opt-Out Forms Are Built to Fail, Report Finds</title>
+      <link>http://localhost:1313/posts/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/</link>
+      <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/</guid>
+      <description>&lt;p&gt;The Electronic Privacy Information Center (EPIC) has released a report detailing the deceptive methods used by major data-collecting companies to prevent consumers from opting out of the sale and sharing of their personal information. The report found that 38 major data companies, including Google, Meta, and OpenAI, use manipulative design to make it difficult for users to opt out, with tactics such as burying links in fine print, requiring multiple forms to be completed, and demanding that users create accounts or pay for subscriptions before opting out.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>CISA Unveils New Initiative to Fortify America’s Critical Infrastructure</title>
-      <link>http://localhost:1313/posts/cisa-unveils-new-initiative-to-fortify-americas-critical-infrastructure/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cisa-unveils-new-initiative-to-fortify-americas-critical-infrastructure/</guid>
-      <description>&lt;p&gt;CISA Unveils New Initiative to Fortify America’s Critical Infrastructure&lt;/p&gt;
-&lt;p&gt;WASHINGTON – Today, the Cybersecurity and Infrastructure Security Agency (CISA) released guidance to help critical infrastructure (CI) entities across all sectors prepare to operate through a crisis or conflict, continuing vital service delivery even as their systems are under attack. The new initiative, CI Fortify, strengthens resilience and helps CI entities and their partners maintain a baseline of continuity for critical services during a cyberattack.&lt;/p&gt;</description>
+      <title>Laurie Anderson Is Quoting Me</title>
+      <link>http://localhost:1313/posts/laurie-anderson-is-quoting-me/</link>
+      <pubDate>Tue, 19 May 2026 11:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/laurie-anderson-is-quoting-me/</guid>
+      <description>&lt;p&gt;The article discusses a quote that has been attributed to the author, which states &amp;ldquo;If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.&amp;rdquo; This quote has been referenced by artist Laurie Anderson in one of her tracks and in interviews, where she expresses her agreement with the sentiment. The origin of the quote can be traced back to Roger Needham, a cryptologist who said &amp;ldquo;If you think cryptography can solve your problem, you don’t understand your problem and you don’t understand cryptography.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>CISA, US and International Partners Release Guide to Secure Adoption of Agentic AI</title>
-      <link>http://localhost:1313/posts/cisa-us-and-international-partners-release-guide-to-secure-adoption-of-agentic-a/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cisa-us-and-international-partners-release-guide-to-secure-adoption-of-agentic-a/</guid>
-      <description>&lt;p&gt;CISA, US and International Partners Release Guide to Secure Adoption of Agentic AI&lt;/p&gt;
-&lt;p&gt;WASHINGTON – Today, the Cybersecurity and Infrastructure Security Agency (CISA), Australian Signals Directorate’s Australian Cyber Security Centre (ASD ACSC), and other U.S. and international partners published, Careful Adoption of Agentic Artificial Intelligence (AI) Services, a joint guide that presents organizations with the cybersecurity challenges and risks associated with introducing agentic AI along with recommended mitigations.&lt;/p&gt;
-&lt;p&gt;Critical infrastructure and defense sectors are increasingly deploying agentic AI systems to support mission-critical systems and capitalize on significant automation benefits. However, these systems can introduce additional cybersecurity risks, such as an expanded attack surface, privilege creep, behavioral misalignment, and obscure event records. This joint guide provides developers, vendors and operators with best practices for securing agentic AI systems and recommended actions to defend against future risks.&lt;/p&gt;</description>
+      <title>You Can Get Some of Your Nudes Removed From the Internet Under a New Law</title>
+      <link>http://localhost:1313/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/</link>
+      <pubDate>Tue, 19 May 2026 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/</guid>
+      <description>&lt;p&gt;The Take It Down Act, a US law backed by First Lady Melania Trump, requires tech platforms to provide a way for people to report nonconsensual intimate images and videos, or NCII, uploaded to their platforms. The law applies broadly to a range of apps and online services, including social media and gaming platforms. As of May 19, companies must have a system in place for users to submit takedown requests, which must include a way for the platform to locate the content, a statement explaining that it was not uploaded consensually, and a signature from the person depicted or someone authorized to act on their behalf.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Congress Learns of Prescription Data Hack Months Later</title>
-      <link>http://localhost:1313/posts/congress-learns-of-prescription-data-hack-months-later/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/congress-learns-of-prescription-data-hack-months-later/</guid>
-      <description>&lt;p&gt;This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.&lt;/p&gt;
-&lt;p&gt;You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.&lt;/p&gt;</description>
+      <title>IT threat evolution in Q1 2026. Mobile statistics</title>
+      <link>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-mobile-statistics/</link>
+      <pubDate>Mon, 18 May 2026 12:00:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-mobile-statistics/</guid>
+      <description>&lt;p&gt;In Q1 2026, the Kaspersky Security Network reported over 2.67 million attacks utilizing malware, adware, or unwanted mobile software. The Trojan-Banker category was the most prevalent mobile malware threat, accounting for 10.86% of total detections. More than 306,000 malicious installation packages were discovered, including 162,275 packages related to mobile banking Trojans and 439 packages related to mobile ransomware Trojans. The number of malware, adware, or unwanted software attacks on mobile devices decreased to 2,676,328 in Q1, down from 3,239,244 in the previous quarter, primarily due to a reduction in adware and RiskTool detections.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Extant Aerospace Data Breach Exposed SSNs for More Than 3,000 People</title>
-      <link>http://localhost:1313/posts/extant-aerospace-data-breach-exposed-ssns-for-more-than-3000-people/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/extant-aerospace-data-breach-exposed-ssns-for-more-than-3000-people/</guid>
-      <description>&lt;p&gt;This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.&lt;/p&gt;
-&lt;p&gt;You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.&lt;/p&gt;</description>
+      <title>IT threat evolution in Q1 2026. Non-mobile statistics</title>
+      <link>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-non-mobile-statistics/</link>
+      <pubDate>Mon, 18 May 2026 12:00:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-non-mobile-statistics/</guid>
+      <description>&lt;p&gt;In Q1 2026, Kaspersky products blocked over 343 million attacks originating from various online resources, with Web Anti-Virus responding to 50 million unique links and File Anti-Virus blocking nearly 15 million malicious and potentially unwanted objects. The quarter also saw the detection of 2938 new ransomware variants, with more than 77,000 users experiencing ransomware attacks. Notably, 14% of all ransomware victims whose data was published on threat actors&amp;rsquo; data leak sites were victims of the Clop ransomware. Law enforcement agencies made significant strides in combating ransomware, with the FBI seizing the domains of the RAMP cybercrime forum and apprehending individuals linked to the Phobos group.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories</title>
-      <link>http://localhost:1313/posts/github-investigating-teampcp-claimed-breach-of-4000-internal-repositories/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github-investigating-teampcp-claimed-breach-of-4000-internal-repositories/</guid>
-      <description>&lt;p&gt;GitHub on Tuesday said it&amp;rsquo;s investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform&amp;rsquo;s source code and internal organizations for sale on a cybercrime forum.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;While we currently have no evidence of impact to customer information stored outside of GitHub&amp;rsquo;s internal repositories (such as our customers&amp;rsquo; enterprises, organizations, and repositories), we are closely monitoring our infrastructure for follow-on activity,&amp;rdquo; the Microsoft-owned subsidiary said.&lt;/p&gt;</description>
+      <title>Zero-Day Exploit Against Windows BitLocker</title>
+      <link>http://localhost:1313/posts/zero-day-exploit-against-windows-bitlocker/</link>
+      <pubDate>Mon, 18 May 2026 11:08:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/zero-day-exploit-against-windows-bitlocker/</guid>
+      <description>&lt;p&gt;A zero-day exploit against Windows BitLocker has been discovered, allowing attackers to bypass the full-volume encryption protection. This exploit, named YellowKey, was published by a researcher known as Nightmare-Eclipse and can reliably bypass default Windows 11 deployments of BitLocker. BitLocker is a crucial security feature that makes disk contents inaccessible to anyone without the decryption key, which is stored in a trusted platform module (TPM).&lt;/p&gt;
+&lt;p&gt;The exploit requires physical access to the computer, which limits its potential impact. However, for organizations that rely on BitLocker as a mandatory protection, this vulnerability poses a significant risk. Many organizations, including those that contract with governments, require BitLocker to be enabled on their systems. The fact that YellowKey can bypass this protection means that an attacker with physical access to a computer could potentially access sensitive data.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Grafana GitHub Breach Exposes Source Code via TanStack npm Attack</title>
-      <link>http://localhost:1313/posts/grafana-github-breach-exposes-source-code-via-tanstack-npm-attack/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/grafana-github-breach-exposes-source-code-via-tanstack-npm-attack/</guid>
-      <description>&lt;p&gt;Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised.&lt;/p&gt;
-&lt;p&gt;It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;After the initial assessment, we found that in addition to source code, the downloaded content included GitHub repositories that some Grafana Labs teams use to collaborate on and store internal operational information and other details about our business,&amp;rdquo; it said.&lt;/p&gt;</description>
+      <title>Cybercriminal Twins Caught After They Forgot to Turn Off Microsoft Teams Recording</title>
+      <link>http://localhost:1313/posts/cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/</link>
+      <pubDate>Sat, 16 May 2026 10:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/</guid>
+      <description>&lt;p&gt;Cybercriminal twins, Muneeb and Sohaib Akhter, have pleaded guilty to charges of destroying 96 government databases after being fired from their jobs at federal contractor Opexus. The brothers&amp;rsquo; revenge campaign was recorded by a Microsoft Teams meeting that they had failed to close, which was later transcribed in a court document. The recording revealed the detailed planning and execution of their attack, with Sohaib asking his brother if they were still connected to the VPN and if they should delete all the databases. The twins&amp;rsquo; mistake has hopefully driven home the lesson to future criminal hackers to close out meetings before discussing illicit activities.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Patch Tuesday, May 2026 Edition</title>
-      <link>http://localhost:1313/posts/patch-tuesday-may-2026-edition/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/patch-tuesday-may-2026-edition/</guid>
-      <description>&lt;p&gt;Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers — including Apple, Google, Microsoft, Mozilla and Oracle — fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.&lt;/p&gt;
-&lt;p&gt;As it does on the second Tuesday of every month, Microsoft today released software updates to address at least 118 security vulnerabilities in its various Windows operating systems and other products. Remarkably, this is the first Patch Tuesday in nearly two years that Microsoft is not shipping any fixes to deal with emergency zero-day flaws that are already being exploited. Nor have any of the flaws fixed today been previously disclosed (potentially giving attackers a heads up in how to exploit the weakness).&lt;/p&gt;</description>
+      <title>Friday Squid Blogging: Bigfin Squid</title>
+      <link>http://localhost:1313/posts/friday-squid-blogging-bigfin-squid/</link>
+      <pubDate>Sat, 16 May 2026 01:03:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/friday-squid-blogging-bigfin-squid/</guid>
+      <description>&lt;p&gt;The article discusses the current state of cybersecurity, specifically the impact of AI and machine learning on the field. Clive Robinson expresses his concern that the over-reliance on AI and machine learning systems will lead to a decline in human skills and expertise, making it difficult for the West to defend against cyber threats. He argues that current AI systems, including large language models (LLMs), are limited to pattern matching and do not truly reason or think creatively. Robinson believes that the use of AI and machine learning systems will ultimately lead to a loss of technological capability in the West, making it vulnerable to cyber attacks.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps</title>
-      <link>http://localhost:1313/posts/trapdoor-android-ad-fraud-scheme-hit-659-million-daily-bid-requests-using-455-ap/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/trapdoor-android-ad-fraud-scheme-hit-659-million-daily-bid-requests-using-455-ap/</guid>
-      <description>&lt;p&gt;Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users.&lt;/p&gt;
-&lt;p&gt;The activity, per HUMAN&amp;rsquo;s Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Users unwittingly download a threat actor-owned app, often a utility-style app like a PDF viewer or device cleanup tool,&amp;rdquo; researchers Louisa Abel, Ryan Joye, João Marques, João Santos, and Adam Sell detailed in a report shared with The Hacker News.&lt;/p&gt;</description>
+      <title>Bypassing On-Camera Age-Verification Checks</title>
+      <link>http://localhost:1313/posts/bypassing-on-camera-age-verification-checks/</link>
+      <pubDate>Fri, 15 May 2026 11:06:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bypassing-on-camera-age-verification-checks/</guid>
+      <description>&lt;p&gt;Some AI-based video age-verification checks can be bypassed using simple methods such as wearing a fake mustache. The primary purpose of these checks is not to verify age, but to de-anonymize critics and enable governments to deny access to online platforms. The failure to keep minors out of adult spaces is not surprising, as this is not the ultimate goal of these checks. Researchers have found that current zero-knowledge proofs have several failings, including the need for interaction, setup, and imperfect soundness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kimsuky targets organizations with PebbleDash-based tools</title>
+      <link>http://localhost:1313/posts/kimsuky-targets-organizations-with-pebbledash-based-tools/</link>
+      <pubDate>Thu, 14 May 2026 11:00:58 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kimsuky-targets-organizations-with-pebbledash-based-tools/</guid>
+      <description>&lt;p&gt;Kimsuky, a Korean-speaking threat actor, has been observed using new malware variants based on the PebbleDash platform, which was originally used by the Lazarus Group. The group&amp;rsquo;s latest campaigns have shown notable tactical shifts, with the use of VSCode tunneling, Cloudflare Quick Tunnels, DWAgent, large language models, and the Rust programming language. Kimsuky has been targeting organizations in South Korea, as well as in Brazil and Germany, with a focus on the defense sector. The group&amp;rsquo;s malware, including HelloDoor and httpMalice, is designed to establish backdoors and steal information, and has been distributed through spear-phishing emails and other means.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your iPhone Gets Stolen. Then the Hacking Begins</title>
+      <link>http://localhost:1313/posts/your-iphone-gets-stolen-then-the-hacking-begins/</link>
+      <pubDate>Thu, 14 May 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/your-iphone-gets-stolen-then-the-hacking-begins/</guid>
+      <description>&lt;p&gt;Millions of phones are stolen every year, and while some are sold for parts, others are unlocked and resold for a higher profit. Researchers at cybersecurity firm Infoblox have uncovered a thriving ecosystem of software sellers that provide &amp;ldquo;unlocking&amp;rdquo; tools and technology to help gain access to stolen iPhones. These tools are sold on the web and on Telegram, with prices averaging below $10, and are used to unlock devices, often through phishing attacks. The researchers have tracked dozens of groups selling these tools and linked over 10,000 phishing websites to the activity, with traffic to these domains increasing by 350% last year.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>State of ransomware in 2026</title>
+      <link>http://localhost:1313/posts/state-of-ransomware-in-2026/</link>
+      <pubDate>Tue, 12 May 2026 07:00:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/state-of-ransomware-in-2026/</guid>
+      <description>&lt;p&gt;The ransomware landscape in 2026 is characterized by the emergence of new families adopting post-quantum cryptography ciphers, making it nearly impossible for victims to decrypt their data without paying a ransom. Despite a decline in ransomware attacks, organizations across all sectors continue to face a high likelihood of attack, with the manufacturing sector alone potentially losing over $18 billion in 2025. Ransomware operators are refining their tactics, prioritizing neutralizing endpoint defenses before executing their payloads, and using tools like &amp;ldquo;EDR killers&amp;rdquo; to terminate security processes and disable monitoring agents.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

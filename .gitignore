@@ -1,0 +1,44 @@
+# =========================
+# HUGO BUILD OUTPUT
+# =========================
+public/
+resources/
+.hugo_build.lock
+
+# =========================
+# OS / SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# VENV (if you use local env)
+# =========================
+venv/
+.env/
+.env.*
+
+# =========================
+# LOCAL DATA (IMPORTANT)
+# =========================
+data/seen.json
+data/checkpoint.json
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+
+# =========================
+# EDITORS
+# =========================
+.vscode/
+.idea/
