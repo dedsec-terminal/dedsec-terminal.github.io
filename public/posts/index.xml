@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on DedSec-Terminal</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on DedSec-Terminal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DedSec-Terminal Online</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;DedSec-Terminal is now online.&lt;/p&gt;
+&lt;p&gt;This platform focuses on cybersecurity intelligence, data breaches, vulnerabilities, malware tracking, and security research.&lt;/p&gt;
+&lt;p&gt;Originally reported by: DedSec-Terminal&lt;/p&gt;
+&lt;p&gt;────────────────&lt;/p&gt;
+&lt;p&gt;“Trust arrives on foot and leaves on horseback.”
+— Dutch proverb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

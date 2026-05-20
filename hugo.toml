@@ -1,0 +1,73 @@
+baseURL = "https://dedsec-terminal.github.io/"
+languageCode = "en-us"
+title = "DedSec-Terminal"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 12
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+description = "Cyber Threat Intelligence & Security Research"
+author = "DedSec-Terminal"
+
+defaultTheme = "dark"
+disableThemeToggle = true
+
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowPostNavLinks = true
+ShowRssButtonInSectionTermList = true
+
+homeInfoParams = false
+
+mainSections = [
+  "threat-intelligence",
+  "data-breaches",
+  "vulnerabilities",
+  "malware",
+  "research"
+]
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+identifier = "threat-intelligence"
+name = "Threat Intel"
+url = "/categories/threat-intelligence/"
+weight = 10
+
+[[menu.main]]
+identifier = "data-breaches"
+name = "Data Breaches"
+url = "/categories/data-breaches/"
+weight = 20
+
+[[menu.main]]
+identifier = "vulnerabilities"
+name = "CVEs"
+url = "/categories/vulnerabilities/"
+weight = 30
+
+[[menu.main]]
+identifier = "malware"
+name = "Malware"
+url = "/categories/malware/"
+weight = 40
+
+[[menu.main]]
+identifier = "research"
+name = "Research"
+url = "/research/"
+weight = 50
