@@ -6,12 +6,19 @@ categories:
   - research
 ---
 
-On AI Security
-Good report:
-Executive Summary: Let’s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don’t actually work for measuring AI capabilities (even when they are NOT emergent systemic properties like security). So let’s take a step back: how do you measure security in the first place? Good question. Over the last 30 years, security engineering for software evolved from black box penetration testing, through whitebox code analysis and architectural risk analysis to de facto process-driven standards like the Building Security In Maturity Model (BSIMM). Software had a very deep impact on business operations, and it appears that AI is going to have an even deeper impact. Will a software security-like measurement move work for AI? Probably. In the meantime we can make real progres
+The article discusses the challenges of ensuring the security of Artificial Intelligence (AI) systems. It highlights that simply maximizing security and privacy benchmarks is not enough, as these benchmarks are not effective in measuring AI capabilities, particularly when it comes to emergent systemic properties like security.
+
+The article notes that the field of software security has evolved over the past 30 years, from black box penetration testing to process-driven standards like the Building Security In Maturity Model (BSIMM). However, it questions whether a similar approach can be applied to AI security.
+
+The author suggests that instead of relying on benchmarks, we should focus on "cleaning up our WHAT piles" and managing risk by identifying and applying good assurance processes. This approach acknowledges that AI security is a complex and multifaceted issue that requires a more nuanced and vigilant approach.
+
+Ultimately, the article concludes that there is no single "security meter" for AI, and therefore, we need to be extra vigilant about security and take a more proactive and process-driven approach to ensuring the security of AI systems.
+
+The article is followed by a cryptic and unrelated comment from a user named "meow" that appears to be a mixture of ASCII art and conspiracy theory references. This comment does not seem to be related to the main topic of the article.
 
 ---
 
-> *Yesterday is history. Tomorrow is a mystery. And today? Today is a gift that's why they call it the present.*
+> *Where there is great love, there are always miracles.
+Author: Willa Cather*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)

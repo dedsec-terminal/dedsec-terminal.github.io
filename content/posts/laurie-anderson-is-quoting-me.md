@@ -6,18 +6,11 @@ categories:
   - research
 ---
 
-Laurie Anderson Is Quoting Me
-Not by name, but Laurie Anderson quotes me in one of the tracks of her new album:
-My favorite quote is from a cryptologist who said “If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.”
-Also in interviews:
-“Of course, it’s ridiculous, outrageous, blah, blah, blah,” Anderson says about the ad. ‘But, I mean, my favorite quote on this is from a cryptologist who said, ‘If you think technology will solve your problems, you don’t understand technology Â and you don’t understand your problems.’ And I think I’m completely on board with that.”
-People are telling me that she has been reciting this quote in performances for years. (I lost track of her since college and her 1981 hit “O Superman.”)
-The origins of the quote is from Roger Needham:
-If you think cryptography can solve your problem, you don
+The article discusses a quote about technology and problem-solving that has been attributed to the author, a cryptologist. The quote, "If you think technology will solve your problem, you don't understand your problem and you don't understand technology," has been used by the author since 2000 and has been recently quoted by artist Laurie Anderson in her new album. However, the original quote is from Roger Needham, "If you think cryptography can solve your problem, you don't understand your problem and you don't understand cryptography." The author modified the quote and has been using it consistently since then, sometimes with slight variations. The article also touches on the issue of crediting the original source, with the author acknowledging that they should have credited Needham by name when they first used the quote.
 
 ---
 
-> *Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.
-Author: Doug Larson*
+> *Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.
+Author: Abraham Lincoln*
 
 Source: [Laurie Anderson Is Quoting Me](https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html)

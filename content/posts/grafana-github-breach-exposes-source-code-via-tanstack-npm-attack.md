@@ -6,15 +6,13 @@ categories:
   - data-breaches
 ---
 
-Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised.
-It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories.
-"After the initial assessment, we found that in addition to source code, the downloaded content included GitHub repositories that some Grafana Labs teams use to collaborate on and store internal operational information and other details about our business," it said.
-"This includes business contact names and email addresses that would be exchanged in a professional relationship context, not information pulled from or processed through the use of production systems or the Grafana Cloud platform."
-The open-source visualization software maker also noted that the breac
+A cybersecurity breach occurred at Grafana Labs, a company that creates open-source visualization software, on May 11, 2026. The breach was caused by the TanStack npm supply chain attack, which was also responsible for breaches at OpenAI and Mistral AI. The attackers gained access to Grafana's GitHub environment, including public and private source code, as well as internal operational information and business contact details. However, the company stated that no customer production systems or operations were compromised. 
+
+Grafana Labs received an extortion demand from an unnamed threat actor on May 16, but chose not to pay the ransom. In response to the breach, the company has taken steps to enhance its security, including rotating automation tokens, implementing enhanced monitoring, and auditing all commits for signs of malicious activity. The breach is part of a larger investigation into unauthorized access to GitHub's internal repositories, which is being carried out by the platform.
 
 ---
 
-> *Patience is the companion of wisdom.
-Author: Saint Augustine*
+> *Moments of complete apathy are the best for new creations.
+Author: Philip Breedveld*
 
 Source: [Grafana GitHub Breach Exposes Source Code via TanStack npm Attack](https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html)

@@ -6,17 +6,17 @@ categories:
   - threat-intel
 ---
 
-A New York City police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden (MSG) during a boxing match. He sued MSG, claiming that the venue's decisions put him in harm's way, leading to significant and permanent injuries. The officer's lawyer, John Scola, who frequently represents NYPD officers, filed the lawsuit.
+A New York City police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden (MSG) during a boxing match. He sued MSG, claiming that the venue's decisions put him in harm's way, resulting in significant and permanent injuries. The officer's lawyer, John Scola, who frequently represents NYPD officers, filed the lawsuit. 
 
-As a result, Scola has been banned from MSG and other venues owned by James Dolan, the CEO of MSG. The ban is part of a long-standing practice by Dolan to exclude lawyers and law firms that are in legal disputes with MSG. The ban is enforced using a sophisticated facial recognition system.
+As a result, Scola has been banned from MSG and other venues owned by James Dolan, the CEO of MSG. This ban is part of a long-standing practice by Dolan to exclude individuals and law firms involved in legal disputes with MSG from his venues, using a sophisticated facial recognition system to enforce the ban.
 
 The incident highlights the complex relationship between MSG and the NYPD, as well as concerns about the use of biometric surveillance by the venue. The NYPD has not shared facial recognition data with MSG, but the venue has added photos of NYPD officers to its database. The New York attorney general's office is reviewing MSG's surveillance tactics, citing concerns about the violation of New Yorkers' rights.
 
-The ban on Scola is seen as petty by the lawyer, who is more focused on representing his client and seeking compensation for the officer's injuries. The incident has also raised questions about the use of paid detail programs, which allow off-duty police officers to work private security gigs, and the potential risks and liabilities associated with these arrangements.
+The ban on Scola is seen as petty, but he is not deterred, stating that he will continue to represent his client and seek justice, even if it means being banned from MSG. The case is ongoing, and MSG has not commented on the matter.
 
 ---
 
-> *It is only when the mind and character slumber that the dress can be seen.
-Author: Ralph Waldo Emerson*
+> *Do one thing every day that scares you.
+Author: Eleanor Roosevelt*
 
 Source: [A New York Cop Got Injured at a Boxing Match. Now Madison Square Garden Is Banning His Lawyer](https://www.wired.com/story/msg-bans-lawyer-representing-new-york-cop-injured-at-a-boxing-match/)

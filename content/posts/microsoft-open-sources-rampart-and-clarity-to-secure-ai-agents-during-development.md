@@ -12,11 +12,11 @@ Microsoft has released two new open-source tools, RAMPART and Clarity, to help d
 
 2. **Clarity**: A "structured sounding board" that guides developers in clarifying problems, exploring solutions, analyzing failures, and tracking decisions before writing code. It acts as an "AI thinking partner" to help developers make informed decisions and identify potential issues early on.
 
-Microsoft's goal in releasing these tools is to encourage developers to address potential security issues early in the development process, making it easier to identify and mitigate problems before they become major issues. By using RAMPART and Clarity, developers can "pressure-test" their assumptions and ensure that their AI systems are secure and reliable.
+Microsoft's goal in releasing these tools is to encourage developers to address potential security issues at the early stages of software development, making it easier to identify and fix problems before the system is built. By using RAMPART and Clarity, developers can "pressure-test" their assumptions and make changes at a lower cost, ultimately leading to more secure AI systems.
 
 ---
 
-> *Let your hook always be cast; in the pool where you least expect it, there will be a fish.
-Author: Ovid*
+> *Man cannot discover new oceans unless he has the courage to lose sight of the shore.
+Author: Andr� Gide*
 
 Source: [Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development](https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html)
