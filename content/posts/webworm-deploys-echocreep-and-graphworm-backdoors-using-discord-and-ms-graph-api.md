@@ -6,7 +6,7 @@ categories:
   - malware
 ---
 
-**Summary of Cybersecurity Article: Webworm Deploys Custom Backdoors Using Discord and MS Graph API**
+**Summary of Cybersecurity Article: Webworm Deploys EchoCreep and GraphWorm Backdoors**
 
 Cybersecurity researchers have identified new activity from the China-aligned threat actor Webworm, which has been active since at least 2022. Webworm has been targeting government agencies and enterprises in various sectors, including IT services, aerospace, and electric power, in countries such as Russia, Georgia, Mongolia, and several other Asian nations.
 
@@ -21,10 +21,10 @@ Webworm has added two new custom backdoors to its toolset:
 
 Webworm's TTPs include:
 
-* Using a GitHub repository impersonating a WordPress fork as a staging ground for malware and tools
-* Leveraging SoftEther VPN to blend in and fly under the radar
-* Utilizing open-source utilities like dirsearch and nuclei to brute-force victim web server files and directories, and search for vulnerabilities within
-* Employing custom proxy tools, such as WormFrp, ChainWorm, SmuxProxy, and WormSocket, to encrypt communications and support chaining across multiple hosts
+* Using open-source utilities like dirsearch and nuclei to brute-force victim web server files and directories, and search for vulnerabilities within.
+* Leveraging a GitHub repository impersonating a WordPress fork as a staging ground for malware and tools.
+* Utilizing SoftEther VPN to blend in and fly under the radar.
+* Employing custom proxy tools, such as WormFrp, ChainWorm, SmuxProxy, and WormSocket, to encrypt communications and support chaining across multiple hosts.
 
 **Relationship with Other Threat Actors**
 
@@ -32,11 +32,11 @@ Webworm's relationship with other threat actors, such as Space Pirates, is tenuo
 
 **Implications**
 
-The discovery of EchoCreep and GraphWorm marks an expansion of Webworm's arsenal, and the group's increasing focus on European countries and use of custom proxy tools and backdoors suggests a growing sophistication in its tactics and techniques. The use of Discord and Microsoft Graph API for C2 communications also highlights the threat actor's ability to adapt and evolve its TTPs.
+The discovery of EchoCreep and GraphWorm marks an expansion of Webworm's arsenal, and the group's shift towards using custom proxy tools and legitimate utilities to evade detection. The use of Discord and Microsoft Graph API for C2 communications highlights the threat actor's ability to adapt and evolve its TTPs.
 
 ---
 
-> *The greatest good you can do for another is not just to share your riches but to reveal to him his own.
-Author: Benjamin Disraeli*
+> *Argue for your limitations, and sure enough they're yours.
+Author: Richard Bach*
 
 Source: [Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)

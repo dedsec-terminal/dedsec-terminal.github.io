@@ -6,34 +6,13 @@ categories:
   - data-breaches
 ---
 
-The article discusses the thriving underground market of cybercrime services that help unlock and resell stolen iPhones. Researchers at Infoblox have tracked dozens of groups selling unlocking tools, mostly focused on iPhones, and linked over 10,000 phishing websites to this activity. These tools and services can be purchased for as little as $10 and are used to unlock stolen iPhones, allowing thieves to access personal information, bank accounts, and crypto wallets.
-
-The process typically involves phishing attacks, where scammers send fake messages to the phone's owner, mimicking Apple's Find My iPhone service, to trick them into revealing their PIN code or other sensitive information. Once the phone is unlocked, the thieves can sell it for a higher price, with some unlocked iPhones worth up to $1,000.
-
-The researchers found that these services are often advertised on Telegram, a messaging app, and are used by individuals and groups from all over the world. The services typically include tools to jailbreak older iPhones, phishing kits, and scripts to launch phishing attacks.
-
-Experts warn that these services are not meant for legitimate purposes and are likely used to facilitate the resale of stolen devices. Apple has improved its device security in recent years, making it harder for thieves to unlock and resell stolen iPhones. However, users can still take steps to protect themselves, such as activating built-in anti-theft features, keeping software updated, and using strong passwords.
-
-Key findings:
-
-* Millions of phones are stolen every year, with thousands of iPhones being shipped to China and broken down for parts.
-* Researchers have tracked dozens of groups selling unlocking tools, mostly focused on iPhones.
-* Over 10,000 phishing websites have been linked to this activity, with traffic increasing by 350% last year.
-* The average cost of these unlocking tools is below $10.
-* Thieves can make hundreds of dollars selling unlocked iPhones, with some devices worth up to $1,000.
-* Experts warn that these services are not meant for legitimate purposes and are likely used to facilitate the resale of stolen devices.
-
-Recommendations:
-
-* Activate built-in anti-theft features, such as Find My iPhone.
-* Keep software updated and use strong passwords.
-* Be aware of your surroundings when using phones in public.
-* Use two-factor authentication to add an extra layer of security.
-* Report stolen devices to the authorities and contact your carrier to suspend service.
+Every year, millions of phones are stolen. While thousands of iPhones are shipped to China and broken down for parts, criminals can make more money selling a device that has been unlocked and wiped. Now researchers have unpicked part of the underground web of cybercrime services that can help provide access to stolen iPhones.
+Across the web and on Telegram, there’s a “thriving” ecosystem of software sellers helping power the market for stolen iPhones by providing “unlocking” tools and the technology to produce phishing messages to help get access to a phone, according to findings from researchers at cybersecurity firm Infoblox. The company says it has tracked “dozens” of groups selling unlocking tools, mostly with a focus on iPhones, and has linked more than 10,000 phishing websites to the activity. Traffic to these domains increased 350 percent last year, the researchers say.
+“Reselling
 
 ---
 
-> *There is one thing you have got to learn about our movement. Three people are better than no people.
-Author: Fannie Hamer*
+> *Pick battles big enough to matter, small enough to win.
+Author: Jonathan Kozol*
 
 Source: [Your iPhone Gets Stolen. Then the Hacking Begins](https://www.wired.com/story/your-iphone-gets-stolen-then-the-hacking-begins/)

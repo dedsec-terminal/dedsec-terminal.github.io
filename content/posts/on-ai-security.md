@@ -6,25 +6,23 @@ categories:
   - research
 ---
 
-The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and penetration testing, are not effective for AI systems. 
+The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and maturity models, are not effective for AI systems. This is because AI systems are complex and dynamic, making it difficult to define and measure security metrics.
 
-A commenter, Clive Robinson, expands on this idea by explaining that measuring information in AI systems is complex due to the continuous values and spectrums involved. He references the "continuum hypothesis" and notes that the cardinality of real numbers is not well-defined, making it difficult to measure information in AI systems. 
+The article highlights several issues with measuring AI security:
 
-Robinson argues that the output of LLMs is "unmeasurable" and "untrustable" due to the complexity of the spectrums encoded in the models. He also mentions the "observer problem," which states that an observer cannot determine if the information they are seeing contains hidden channels or secrets. 
+1. **Lack of clear metrics**: There is no clear way to measure the security of AI systems, as traditional metrics such as accuracy and precision are not directly applicable to security.
+2. **Complexity of AI systems**: AI systems, particularly those using LLMs and ML, are highly complex and dynamic, making it difficult to define and measure security metrics.
+3. **Spectrum-based systems**: AI systems often rely on continuous values and spectrums, which are difficult to measure and quantify, particularly when dealing with real-world data.
+4. **Cardinality and continuum hypothesis**: The article discusses the concept of cardinality and the continuum hypothesis, which highlights the challenges of measuring continuous values and spectrums.
+5. **Untrustable outputs**: The article argues that the outputs of LLMs and ML systems are inherently untrustable due to the complexity of the systems and the difficulty of measuring their security.
 
-The main points of the article and comment are:
+The author concludes that current AI systems, particularly those using LLMs and ML, are inherently untrustable and that it is impossible to measure their security with certainty. The article suggests that this is a fundamental limitation of AI systems and that alternative approaches, such as "guardrails" and assurance processes, may be necessary to mitigate the risks associated with AI systems.
 
-1. Traditional software security measurement methods are not effective for AI systems.
-2. Measuring information in AI systems is complex due to continuous values and spectrums.
-3. The output of LLMs is "unmeasurable" and "untrustable" due to complexity.
-4. The "observer problem" makes it impossible to determine if information contains hidden channels or secrets.
-5. Current AI LLM and ML systems can never be fully "trusted" in any context.
-
-Overall, the article and comment highlight the challenges of ensuring security and trust in AI systems, and the need for new approaches to measuring and evaluating their security.
+Overall, the article highlights the significant challenges of measuring and ensuring the security of AI systems, particularly those using LLMs and ML, and argues that a new approach is needed to address these challenges.
 
 ---
 
-> *I love my past. I love my present. Im not ashamed of what Ive had, and Im not sad because I have it no longer.
-Author: Colette*
+> *What separates the winners from the losers is how a person reacts to each new twist of fate.
+Author: Donald Trump*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)

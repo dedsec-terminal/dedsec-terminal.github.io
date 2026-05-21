@@ -6,11 +6,21 @@ categories:
   - research
 ---
 
-The article is not about cybersecurity, but rather a list of upcoming speaking engagements for the author. The author will be giving talks on various topics, including "The Security of Trust in the Age of AI", at several conferences in the US, Germany, and Austria between May 21 and July 1, 2026. A commenter, Clive Robinson, wishes the author well and mentions the pleasant aspects of visiting Germany and Austria in the summer.
+Upcoming Speaking Engagements
+This is a current list of where and when I am scheduled to speak:
+- I’m giving a virtual talk on “The Security of Trust in the Age of AI,” hosted by the Financial Women’s Association of New York, at 6:00 PM ET on May 21, 2026.
+- I’m speaking at the Potsdam Conference on National Cybersecurity at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, and my talk will be the evening of June 24.
+- I’m speaking at the Digital Humanism Conference in Vienna, Austria, on Tuesday, June 26, 2026.
+- I’m speaking at the Nuremberg Digital Festival in Nuremburg, Germany, on Wednesday, July 1, 2026.
+The list is maintained on this page.
+Clive Robinson • May 15, 2026 10:48 AM
+@ Bruce,
+Hmm… back to back Germany and Austria for a week in Summer, where the beer is good, and the air clear.
+Have fun 😉
 
 ---
 
-> *When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run.
-Author: Abraham Lincoln*
+> *I am not bothered by the fact that I am unknown. I am bothered when I do not know others.
+Author: Confucius*
 
 Source: [Upcoming Speaking Engagements](https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html)
