@@ -6,38 +6,34 @@ categories:
   - malware
 ---
 
-**Summary of Cybersecurity Article: Webworm Deploys Custom Backdoors Using Discord and MS Graph API**
+**Summary of Cybersecurity Article: Webworm Deploys EchoCreep and GraphWorm Backdoors**
 
-Cybersecurity researchers have identified new activity from the China-aligned threat actor "Webworm" in 2025. Webworm has been active since at least 2022, targeting government agencies and enterprises in various sectors, including IT services, aerospace, and electric power, in countries such as Russia, Georgia, Mongolia, and several other Asian nations.
+Cybersecurity researchers have identified new activity from the China-aligned threat actor Webworm, which has been active since at least 2022. Webworm has been targeting government agencies and enterprises in various sectors, including IT services, aerospace, and electric power, in countries such as Russia, Georgia, Mongolia, and several other Asian nations.
 
 **New Backdoors: EchoCreep and GraphWorm**
 
-Webworm has added two new custom backdoors to its toolset:
-
-1. **EchoCreep**: Uses Discord for command-and-control (C2) communications, allowing file upload/download and command execution via "cmd.exe" capabilities.
-2. **GraphWorm**: Uses Microsoft Graph API for C2 communications, enabling advanced capabilities such as spawning a new "cmd.exe" session, executing newly created processes, uploading and downloading files to and from Microsoft OneDrive, and stopping its own execution after receiving a signal from the operators.
+Webworm has deployed two new custom backdoors, EchoCreep and GraphWorm, which use Discord and Microsoft Graph API for command-and-control (C2) communications. EchoCreep supports file upload/download and command execution, while GraphWorm is a more advanced backdoor that can spawn new processes, execute commands, and upload/download files to/from Microsoft OneDrive.
 
 **Tactics, Techniques, and Procedures (TTPs)**
 
 Webworm's TTPs include:
 
-* Using a GitHub repository impersonating a WordPress fork as a staging ground for malware and tools
-* Leveraging SoftEther VPN to blend in and fly under the radar
-* Shifting away from traditional backdoors to (semi-)legitimate utilities such as SOCKS proxies
-* Increasingly focusing on European countries, including governmental organizations and a local university in South Africa
-* Using custom proxy tools, such as WormFrp, ChainWorm, SmuxProxy, and WormSocket, to encrypt communications and chain across multiple hosts
+1. Using open-source utilities like dirsearch and nuclei to brute-force victim web server files and directories.
+2. Leveraging SoftEther VPN to blend in and fly under the radar.
+3. Utilizing custom proxy tools, such as WormFrp, ChainWorm, SmuxProxy, and WormSocket, to encrypt communications and chain across multiple hosts.
+4. Impersonating a WordPress fork on GitHub to stage malware and tools.
 
-**Initial Access Pathway and Delivery**
+**Overlaps with Other Threat Actors**
 
-The initial access pathway and delivery method used by Webworm are currently unknown. However, the attacker utilizes open-source utilities like dirsearch and nuclei to brute-force victim web server files and directories and search for vulnerabilities within.
+Webworm's links to other threat actors, such as Space Pirates, are tenuous at best, with the use of open-source RATs being the primary connection. However, ESET researchers believe that Webworm's activity is distinct and not directly related to other groups.
 
-**Related Malware-as-a-Service (MaaS) Model**
+**Conclusion**
 
-The article also mentions a BadIIS variant, likely sold or shared among multiple Chinese-speaking cybercrime groups under a MaaS model, which offers a set of supplementary tools for automation, survivability, and evasion. The same malware author has made available a dedicated builder tool for generating configuration files, customizing payloads, and injecting parameters into BadIIS binaries.
+The discovery of EchoCreep and GraphWorm marks an expansion of Webworm's arsenal, highlighting the group's continued evolution and adaptation to evade detection. The use of custom backdoors and proxy tools demonstrates Webworm's sophistication and ability to operate stealthily. As the threat landscape continues to evolve, it is essential for organizations to remain vigilant and proactive in detecting and mitigating potential threats.
 
 ---
 
-> *Where all think alike, no one thinks very much.
-Author: Walter Lippmann*
+> *Let us revere, let us worship, but erect and open-eyed, the highest, not the lowest; the future, not the past!
+Author: Charlotte Gilman*
 
 Source: [Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)

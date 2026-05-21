@@ -10,13 +10,13 @@ Microsoft has released two new open-source tools, RAMPART and Clarity, to help d
 
 1. **RAMPART**: A testing framework that allows developers to write and run safety and security tests for AI agents, covering issues such as adversarial attacks, cross-prompt injections, and data exfiltration. It evaluates test outcomes and reports results, requiring only an adapter to connect the AI agent to the test suite.
 
-2. **Clarity**: A "structured sounding board" that guides developers in clarifying problems, exploring solutions, analyzing failures, and tracking decisions before writing code. It acts as an "AI thinking partner" to help developers make informed decisions and identify potential issues early on.
+2. **Clarity**: A "structured sounding board" that guides developers in clarifying problems, exploring solutions, analyzing failures, and tracking decisions before writing code. It acts as an "AI thinking partner" to help developers identify potential issues early on.
 
-Microsoft's goal in releasing these tools is to encourage developers to address potential security issues at the early stages of software development, making it easier to identify and fix problems before the system is built. By using RAMPART and Clarity, developers can "pressure-test" their assumptions and make changes at a lower cost, ultimately leading to more secure AI systems.
+The goal of releasing these tools is to address potential security issues at an early stage of software development, making it easier to change course and avoid costly rework later on. Microsoft aims to make incidents reproducible, mitigations verifiable, and scale learnings from red teaming exercises by turning them into engineering assets. By using RAMPART and Clarity, developers can move AI safety from a one-time review to a set of living artifacts that can be used throughout the development lifecycle.
 
 ---
 
-> *Man cannot discover new oceans unless he has the courage to lose sight of the shore.
-Author: Andr� Gide*
+> *It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens.
+Author: Pema Chodron*
 
 Source: [Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development](https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html)

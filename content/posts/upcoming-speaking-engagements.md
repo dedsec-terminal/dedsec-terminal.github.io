@@ -10,7 +10,7 @@ The article is not about cybersecurity, but rather a list of upcoming speaking e
 
 ---
 
-> *If you are patient in one moment of anger, you will escape one hundred days of sorrow.
-Author: Chinese proverb*
+> *A failure is a man who has blundered but is not capable of cashing in on the experience.
+Author: Elbert Hubbard*
 
 Source: [Upcoming Speaking Engagements](https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html)
