@@ -6,30 +6,34 @@ categories:
   - data-breaches
 ---
 
-A recent cybersecurity study has uncovered a thriving underground market for stolen iPhones, where criminals can purchase "unlocking" tools and phishing services to gain access to the devices. Researchers at Infoblox found dozens of groups selling these tools, mostly focused on iPhones, and linked over 10,000 phishing websites to the activity. The average cost of these tools is below $10, and they can be used to unlock devices, steal personal information, and access online bank accounts.
+The article discusses the thriving underground market of cybercrime services that help unlock and resell stolen iPhones. Researchers at Infoblox have tracked dozens of groups selling unlocking tools, mostly focused on iPhones, and linked over 10,000 phishing websites to this activity. These tools and services can be purchased for as little as $10 and are used to unlock stolen iPhones, allowing thieves to access personal information, bank accounts, and crypto wallets.
 
-The study found that phone thieves don't just want the handset, but also the personal information and financial data stored on it. A stolen iPhone can be worth $50 to $200 when locked, but can be worth $500 to $1,000 when unlocked. This has created a lucrative market for unlocking services, which often use phishing attacks to trick owners into revealing their passcodes or other sensitive information.
+The process typically involves phishing attacks, where scammers send fake messages to the phone's owner, mimicking Apple's Find My iPhone service, to trick them into revealing their PIN code or other sensitive information. Once the phone is unlocked, the thieves can sell it for a higher price, with some unlocked iPhones worth up to $1,000.
 
-The researchers identified several common features of these unlocking tools, including:
+The researchers found that these services are often advertised on Telegram, a messaging app, and are used by individuals and groups from all over the world. The services typically include tools to jailbreak older iPhones, phishing kits, and scripts to launch phishing attacks.
 
-1. Jailbreaking software that can bypass Apple's security measures
-2. Phishing kits that mimic Apple's Find My iPhone service
-3. Scripts and AI voice calling software to launch phishing attacks
+Experts warn that these services are not meant for legitimate purposes and are likely used to facilitate the resale of stolen devices. Apple has improved its device security in recent years, making it harder for thieves to unlock and resell stolen iPhones. However, users can still take steps to protect themselves, such as activating built-in anti-theft features, keeping software updated, and using strong passwords.
 
-The study also found that many of these services are advertised on Telegram, a messaging app, and can be purchased for a low cost. However, experts warn that these services are likely not meant for legitimate purposes and can be used to facilitate cybercrime.
+Key findings:
 
-To protect themselves, iPhone users are advised to:
+* Millions of phones are stolen every year, with thousands of iPhones being shipped to China and broken down for parts.
+* Researchers have tracked dozens of groups selling unlocking tools, mostly focused on iPhones.
+* Over 10,000 phishing websites have been linked to this activity, with traffic increasing by 350% last year.
+* The average cost of these unlocking tools is below $10.
+* Thieves can make hundreds of dollars selling unlocked iPhones, with some devices worth up to $1,000.
+* Experts warn that these services are not meant for legitimate purposes and are likely used to facilitate the resale of stolen devices.
 
-1. Activate built-in anti-theft features, such as Find My iPhone
-2. Keep their software up to date
-3. Use strong passwords and two-factor authentication
-4. Be aware of their surroundings when using their phone in public
+Recommendations:
 
-By taking these simple steps, iPhone users can significantly reduce the harm caused if their device is stolen. Apple has also introduced Stolen Device Protection, which makes it harder for thieves to make changes to a stolen iPhone, but this setting may not be turned on by default.
+* Activate built-in anti-theft features, such as Find My iPhone.
+* Keep software updated and use strong passwords.
+* Be aware of your surroundings when using phones in public.
+* Use two-factor authentication to add an extra layer of security.
+* Report stolen devices to the authorities and contact your carrier to suspend service.
 
 ---
 
-> *Life is the flower for which love is the honey.
-Author: Victor Hugo*
+> *There is one thing you have got to learn about our movement. Three people are better than no people.
+Author: Fannie Hamer*
 
 Source: [Your iPhone Gets Stolen. Then the Hacking Begins](https://www.wired.com/story/your-iphone-gets-stolen-then-the-hacking-begins/)

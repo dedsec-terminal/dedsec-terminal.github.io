@@ -8,24 +8,24 @@ categories:
 
 A new US law, the Take It Down Act, requires tech platforms to provide a way for people to report nonconsensual intimate images and videos (NCII) uploaded to their platforms. The law, which went into effect on May 19, applies to a range of apps and online services, including social media and gaming platforms. 
 
-To comply with the law, platforms must make it easy for people to submit removal requests, which must include:
+To comply with the law, companies must make it easy for people to submit removal requests, which must include:
 
-1. A way to locate the content, such as a link
-2. A statement explaining that it was not uploaded consensually
-3. A signature from the person depicted in the content or someone authorized to act on their behalf
-4. A way to contact that person
+1. A way to locate the content (e.g., a link)
+2. A statement explaining that the content was not uploaded consensually
+3. A signature from the person depicted or someone authorized to act on their behalf
+4. Contact information for the person submitting the request
 
-Once a takedown request is submitted, the platform has up to 48 hours to determine whether it is valid. If it is, the platform must remove the content and any identical copies.
+Platforms have 48 hours to determine whether a takedown request is valid, and if so, they must remove the content and any identical copies. Some companies, such as Meta, Microsoft, Google, and Reddit, have dedicated forms for submitting takedown requests, while others may use email addresses or third-party websites.
 
-Several major platforms, including Meta, Microsoft, Google, Reddit, Snap, and TikTok, have established processes for reporting NCII and have dedicated forms for submitting takedown requests. Some platforms, such as LinkedIn and Epic Games, also allow people to submit removal requests through their help centers or reporting tools.
+Experts note that the reporting process can be complex and may be difficult for younger users or those who are not familiar with the law. They emphasize the importance of testing reporting forms with users and providing clear guidance on how to submit a takedown request.
 
-However, some companies have been slow to respond to requests for information on how to submit takedown requests, and some have only updated their reporting forms after being contacted by WIRED. Experts have raised concerns that the reporting process may be difficult for some people, particularly teenagers, to navigate, and that companies may not be doing enough to test their reporting forms and ensure that they are user-friendly.
+Several major platforms, including Reddit, TikTok, Snap, Microsoft, and Meta, use an industry tool called StopNCII to identify and remove abusive images and videos. Others, such as LinkedIn and Epic Games, have their own reporting forms and processes in place.
 
-Overall, the Take It Down Act is an important step towards protecting people from nonconsensual intimate images and videos, but its effectiveness will depend on how well platforms implement the law and make it easy for people to submit removal requests.
+Overall, the Take It Down Act aims to provide a way for people to remove nonconsensual intimate images and videos from the internet, and companies are required to comply with the law by providing a clear and easy-to-use reporting process.
 
 ---
 
-> *You have to do your own growing no matter how tall your grandfather was.
-Author: Abraham Lincoln*
+> *God always takes the simplest way.
+Author: Albert Einstein*
 
 Source: [You Can Get Some of Your Nudes Removed From the Internet Under a New Law](https://www.wired.com/story/how-to-remove-nudes-take-it-down-act/)

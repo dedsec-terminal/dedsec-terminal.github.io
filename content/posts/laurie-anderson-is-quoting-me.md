@@ -6,11 +6,11 @@ categories:
   - research
 ---
 
-The article discusses a quote about technology and problem-solving that has been attributed to the author, a cybersecurity expert. The quote, "If you think technology will solve your problem, you don't understand your problem and you don't understand technology," has been used by the author consistently since 2000. However, the original quote is from Roger Needham, a cryptologist, who said, "If you think cryptography can solve your problem, you don't understand your problem and you don't understand cryptography." The author modified the quote and has been using it without crediting Needham by name. The quote has gained popularity and has been recently used by artist Laurie Anderson in her new album and interviews. The article also touches on the idea of quoting and referencing others' work, with a mention of a quote from Anatole France that suggests it's acceptable to use someone else's well-said phrase without giving references.
+The article discusses a quote about technology and problem-solving that has been attributed to the author, a cybersecurity expert. The quote, "If you think technology will solve your problem, you don't understand your problem and you don't understand technology," has been used by the author in various forms since 2000. However, the original quote is from Roger Needham, a cryptologist, who said, "If you think cryptography can solve your problem, you don't understand your problem and you don't understand cryptography." The author modified the quote and has been using it without crediting Needham by name. Recently, the author discovered that Laurie Anderson, a musician, has been quoting the modified version of the quote in her performances and interviews, without attributing it to the author. The article reflects on the origins of the quote and the importance of crediting original sources, while also acknowledging that ideas and quotes can be shared and built upon without always needing to provide references.
 
 ---
 
-> *The way we communicate with others and with ourselves ultimately determines the quality of our lives.
-Author: Tony Robbins*
+> *If you spend too much time thinking about a thing, you'll never get it done.
+Author: Bruce Lee*
 
 Source: [Laurie Anderson Is Quoting Me](https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html)

@@ -6,19 +6,25 @@ categories:
   - research
 ---
 
-The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and penetration testing, are not effective for AI systems. This is because AI systems are complex and dynamic, making it difficult to define and measure security.
+The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and penetration testing, are not effective for AI systems. 
 
-The article highlights the problem of measuring information in AI systems, which is based on continuous values and spectrums rather than discrete objects. This makes it challenging to apply traditional measurement methods, such as cardinality, which are based on natural numbers. The author references the continuum hypothesis, which shows that measuring real numbers and spectrums is a complex and potentially unprovable problem.
+A commenter, Clive Robinson, expands on this idea by explaining that measuring information in AI systems is complex due to the continuous values and spectrums involved. He references the "continuum hypothesis" and notes that the cardinality of real numbers is not well-defined, making it difficult to measure information in AI systems. 
 
-The article concludes that current AI LLM and ML systems are "unmeasurable" and "untrustable" due to the complexity of the spectrums encoded in the LLM weights. This means that it is not possible to trust the output of these systems, even if they are designed with security in mind. The author also references the "observer problem," which suggests that it is impossible to determine whether a system contains hidden channels or secrets.
+Robinson argues that the output of LLMs is "unmeasurable" and "untrustable" due to the complexity of the spectrums encoded in the models. He also mentions the "observer problem," which states that an observer cannot determine if the information they are seeing contains hidden channels or secrets. 
 
-The implications of this are significant, as it means that AI systems can never be fully trusted, not just in the context of information security, but in any context where humans rely on them. The article suggests that "guardrails" or controls put in place to restrict the behavior of AI systems can always be subverted by those who use them.
+The main points of the article and comment are:
 
-Overall, the article highlights the need for a new approach to measuring and ensuring the security of AI systems, one that takes into account the unique challenges and complexities of these systems. It also emphasizes the importance of being vigilant and aware of the potential risks and limitations of AI systems, rather than relying on traditional security measures.
+1. Traditional software security measurement methods are not effective for AI systems.
+2. Measuring information in AI systems is complex due to continuous values and spectrums.
+3. The output of LLMs is "unmeasurable" and "untrustable" due to complexity.
+4. The "observer problem" makes it impossible to determine if information contains hidden channels or secrets.
+5. Current AI LLM and ML systems can never be fully "trusted" in any context.
+
+Overall, the article and comment highlight the challenges of ensuring security and trust in AI systems, and the need for new approaches to measuring and evaluating their security.
 
 ---
 
-> *Let us revere, let us worship, but erect and open-eyed, the highest, not the lowest; the future, not the past!
-Author: Charlotte Gilman*
+> *I love my past. I love my present. Im not ashamed of what Ive had, and Im not sad because I have it no longer.
+Author: Colette*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)
