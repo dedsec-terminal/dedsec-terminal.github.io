@@ -6,19 +6,19 @@ categories:
   - threat-intel
 ---
 
-A 23-year-old Canadian man, Jacob Butler, also known as "Dort", has been arrested and charged in both the US and Canada for allegedly building and operating the Kimwolf botnet, a massive Internet-of-Things (IoT) botnet that was used to launch distributed denial-of-service (DDoS) attacks. The botnet is believed to have infected millions of devices, including digital photo frames and web cameras, and was rented out to other cybercriminals or used to launch record-breaking DDoS attacks.
+A 23-year-old Canadian man, Jacob Butler, also known as "Dort", has been arrested and charged in both the US and Canada for allegedly building and operating the Kimwolf botnet. The botnet, which infected millions of devices, was used to launch massive distributed denial-of-service (DDoS) attacks, including ones that targeted the US Department of Defense. The attacks resulted in financial losses of over $1 million for some victims.
 
-Butler was identified as the alleged botmaster by KrebsOnSecurity in February 2026, after he launched a series of DDoS, doxing, and swatting attacks against the author and a security researcher. Despite being unmasked, Butler continued to threaten and harass researchers who helped track him down.
+Butler was identified as the alleged botmaster by cybersecurity researcher Brian Krebs in February 2026, after he launched a series of DDoS, doxing, and swatting campaigns against Krebs and a security researcher. The investigation found that Butler did little to separate his real-life and cybercriminal identities, making it easier for authorities to track him down.
 
-The US Department of Justice has charged Butler with one count of aiding and abetting computer intrusion, which carries a maximum sentence of 10 years in prison. However, the sentence may be reduced due to mitigating factors such as Butler's youth, lack of criminal history, and level of cooperation with investigators.
+The US Department of Justice has charged Butler with one count of aiding and abetting computer intrusion, which carries a maximum sentence of 10 years in prison. However, some commentators are calling for a harsher sentence, given the severity of the attacks and the fact that Butler allegedly engaged in swatting, which can be considered a form of attempted murder.
 
-The arrest and charges against Butler are the result of a joint investigation by Canadian and US authorities, including the Ontario Provincial Police, the FBI, and the Department of Defense's Defense Criminal Investigative Service. The investigation also involved the seizure of domain names tied to nearly four-dozen DDoS-for-hire services, including one that collaborated with Butler's Kimwolf botnet.
+The arrest and charges against Butler are part of a larger effort by law enforcement to crack down on DDoS botnets and other forms of cybercrime. In recent months, authorities have seized domain names tied to DDoS-for-hire services and have worked to disrupt the operations of other botnets, including the Aisuru, JackSkid, and Mossad botnets.
 
-Butler is currently in Canadian custody awaiting an initial court hearing, and may be extradited to the US to face charges. The case has sparked debate about the severity of the sentence, with some arguing that Butler's actions warrant a harsher punishment due to the scale and impact of the attacks.
+The case highlights the importance of international cooperation in combating cybercrime, as well as the need for individuals and organizations to take steps to protect themselves from these types of attacks. It also raises questions about the appropriate punishment for those who engage in cybercrime, particularly when it involves serious offenses like swatting.
 
 ---
 
-> *What you fear is that which requires action to overcome.
-Author: Byron Pulsifer*
+> *This is the final test of a gentleman: his respect for those who can be of no possible value to him.
+Author: William Lyon Phelps*
 
 Source: [Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada](https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/)

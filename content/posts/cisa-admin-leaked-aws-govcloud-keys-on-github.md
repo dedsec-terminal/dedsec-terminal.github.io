@@ -6,25 +6,19 @@ categories:
   - data-breaches
 ---
 
-A cybersecurity article reports that a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) accidentally leaked highly sensitive credentials, including AWS GovCloud keys, on a public GitHub repository. The repository, named "Private-CISA," contained files detailing CISA's internal systems, including cloud keys, tokens, plaintext passwords, and logs. The leak is considered one of the most egregious government data leaks in recent history.
+A cybersecurity article reports that a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) accidentally leaked highly sensitive credentials, including AWS GovCloud keys, on a public GitHub repository. The repository, named "Private-CISA," contained internal CISA systems, cloud keys, tokens, plaintext passwords, logs, and other sensitive assets. The leak is considered one of the most egregious government data leaks in recent history.
 
-The leak was discovered by a researcher from GitGuardian, who notified CISA and KrebsOnSecurity. The researcher described the leak as a "textbook example of poor security hygiene," with passwords stored in plain text and backups stored in the GitHub repository. The exposed credentials could have allowed malicious actors to access CISA's internal systems, including a secure code development environment.
+The leak was discovered by a researcher from the security firm GitGuardian, who notified CISA and KrebsOnSecurity. The exposed credentials included administrative access to three Amazon AWS GovCloud servers and plaintext usernames and passwords for dozens of internal CISA systems.
 
-CISA has acknowledged the leak and is investigating the incident. The agency claims that there is no indication that any sensitive data was compromised, but the leak has raised concerns about the agency's cybersecurity practices. The incident has also sparked debate about the impact of budget cuts and staffing reductions on CISA's ability to maintain effective cybersecurity.
+The contractor, who worked for the government contractor Nightwing, had disabled GitHub's default setting that blocks users from publishing sensitive information in public code repositories. The leak is attributed to poor security hygiene, with passwords stored in plain text and backups stored in the GitHub repository.
 
-The leak has been attributed to an individual contractor's mistake, but it has also highlighted broader issues with CISA's cybersecurity practices and the need for improved safeguards to prevent similar incidents in the future. The incident has eroded confidence in CISA's ability to protect sensitive information and has raised questions about the agency's effectiveness in promoting cybersecurity best practices.
+CISA has acknowledged the incident and is investigating, stating that there is no indication that sensitive data was compromised. However, the agency has faced criticism for its handling of the incident, with some attributing the leak to funding cuts and staffing shortages.
 
-Key points:
-
-* A CISA contractor leaked sensitive credentials, including AWS GovCloud keys, on a public GitHub repository.
-* The leak is considered one of the most egregious government data leaks in recent history.
-* The leak was discovered by a researcher from GitGuardian, who notified CISA and KrebsOnSecurity.
-* CISA has acknowledged the leak and is investigating the incident.
-* The leak has raised concerns about CISA's cybersecurity practices and the impact of budget cuts and staffing reductions on the agency's ability to maintain effective cybersecurity.
+The incident has raised concerns about the agency's ability to protect sensitive information and has eroded confidence in its ability to provide cybersecurity guidance to the industry. The leak is seen as a textbook example of poor security practices, and the fact that it occurred at the agency responsible for promoting cybersecurity best practices has been widely criticized.
 
 ---
 
-> *We cannot change our memories, but we can change their meaning and the power they have over us.
-Author: David Seamans*
+> *He who obtains has little. He who scatters has much.
+Author: Richard Braunstein*
 
 Source: [CISA Admin Leaked AWS GovCloud Keys on Github](https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/)

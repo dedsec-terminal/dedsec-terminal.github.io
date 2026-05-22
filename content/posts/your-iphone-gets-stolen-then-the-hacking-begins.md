@@ -6,24 +6,13 @@ categories:
   - data-breaches
 ---
 
-A recent cybersecurity study by Infoblox has uncovered a thriving underground market for stolen iPhones, where criminals can purchase "unlocking" tools and phishing services to gain access to the devices. The study found that thousands of iPhones are stolen every year, and while some are sold for parts, others are unlocked and resold for a higher profit. The researchers identified dozens of groups selling unlocking tools, mostly focused on iPhones, and linked over 10,000 phishing websites to the activity.
-
-The phishing services use social engineering tactics to trick the phone's owner into revealing their passcode or other sensitive information, allowing the thieves to unlock the device and access the owner's personal data, including bank accounts and crypto wallets. The average cost of these services is below $10, and the researchers found that people from all over the world are buying access to the pay-per-use software.
-
-The study highlights the importance of taking simple steps to protect oneself from phone theft, such as activating built-in anti-theft features, keeping software updated, and using strong passwords. Additionally, being aware of one's surroundings when using phones in public can significantly reduce the harm caused if a phone is stolen.
-
-Some key findings from the study include:
-
-* The number of phones being stolen has risen in recent years, with around 80,000 devices being taken in London in one year.
-* Apple and Google have improved their protections for stolen devices, but thieves can still make money from stolen handsets if they can unlock or access the device.
-* The underground market for stolen iPhones is a complex ecosystem, with multiple players involved in the supply chain.
-* The use of phishing tools and social engineering tactics is a common method for thieves to gain access to stolen devices.
-
-Overall, the study highlights the need for individuals to be vigilant and take steps to protect themselves from phone theft and cybercrime. By being aware of the risks and taking simple precautions, individuals can reduce the harm caused if their phone is stolen.
+Every year, millions of phones are stolen. While thousands of iPhones are shipped to China and broken down for parts, criminals can make more money selling a device that has been unlocked and wiped. Now researchers have unpicked part of the underground web of cybercrime services that can help provide access to stolen iPhones.
+Across the web and on Telegram, there’s a “thriving” ecosystem of software sellers helping power the market for stolen iPhones by providing “unlocking” tools and the technology to produce phishing messages to help get access to a phone, according to findings from researchers at cybersecurity firm Infoblox. The company says it has tracked “dozens” of groups selling unlocking tools, mostly with a focus on iPhones, and has linked more than 10,000 phishing websites to the activity. Traffic to these domains increased 350 percent last year, the researchers say.
+“Reselling
 
 ---
 
-> *Never ignore a gut feeling, but never believe that it's enough.
-Author: Robert Heller*
+> *Every action of our lives touches on some chord that will vibrate in eternity.
+Author: Edwin Chapin*
 
 Source: [Your iPhone Gets Stolen. Then the Hacking Begins](https://www.wired.com/story/your-iphone-gets-stolen-then-the-hacking-begins/)

@@ -11,28 +11,27 @@ The article discusses the evolution of IT threats in the first quarter of 2026, 
 **Mobile Threats:**
 
 1. **Decrease in attacks:** The number of malware, adware, and unwanted software attacks on mobile devices decreased to 2,676,328 in Q1 2026, down from 3,239,244 in the previous quarter.
-2. **Trojan-Banker:** The Trojan-Banker category was the most prevalent mobile malware threat, with a 10.86% share of total detections.
-3. **Malicious installation packages:** Over 306,000 malicious installation packages were discovered, including 162,275 related to mobile banking Trojans and 439 related to mobile ransomware Trojans.
+2. **Trojan-Banker:** The Trojan-Banker category was the most prevalent mobile malware threat, accounting for 10.86% of total detections.
+3. **Mobile banking Trojans:** The number of mobile banking Trojan packages increased by 50% compared to the previous quarter, with 162,275 packages detected.
 
-**Mobile Malware:**
+**Top Mobile Malware:**
 
-1. **Top 20 malware:** The top 20 most frequently detected types of mobile malware were listed, with the Triada.ag backdoor rising to the top spot.
-2. **Banking Trojans:** The number of mobile banking Trojan packages increased by 50% compared to the previous quarter, with various Mamont variants accounting for the majority of packages.
-3. **Adware and RiskTool:** Adware and RiskTool-type unwanted apps remained the top two threats by attack volume, despite a decrease in their share of installation packages.
+1. **Triada:** The pre-installed Triada.ag backdoor rose to the top spot, accounting for 7.09% of all mobile malware detections.
+2. **Mamont:** Various Mamont variants accounted for the majority of mobile banking Trojan packages and represented nearly every entry in the rankings of most frequent banking Trojans by affected user count.
 
-**Key Trends:**
+**Other Findings:**
 
-1. **Increase in banking Trojan activity:** The number of mobile banking Trojan packages increased by 50% compared to the previous quarter.
-2. **Rise of pre-installed malware:** Pre-installed malware, such as the Triada backdoor, was detected on a wide range of devices, causing a significant increase in the number of affected users.
-3. **Growing threat of crypto stealers:** A new version of the SparkCat crypto stealer was discovered, which was embedded in infected Android apps and used a custom-built virtual machine to decrypt the malicious code.
+1. **Adware and RiskTool:** Despite a decrease in their share of installation packages, adware and RiskTool-type unwanted apps retained their positions as the top two threats by attack volume.
+2. **SparkCat crypto stealer:** A new version of the SparkCat crypto stealer was discovered, embedded in infected Android apps and using a custom-built virtual machine to decrypt the malicious code.
+3. **Kimwolf botnet:** A link was identified between the Kimwolf botnet and the IPIDEA proxy network, which was later taken down in cooperation with GTIG.
 
 **Conclusion:**
 
-The article highlights the evolving landscape of mobile threats, with a focus on the increasing activity of banking Trojans, the rise of pre-installed malware, and the growing threat of crypto stealers. The findings emphasize the importance of mobile security and the need for users to be aware of the potential risks and take necessary precautions to protect their devices and personal data.
+The report highlights the ongoing evolution of mobile threats, with a focus on Trojan-Banker and mobile banking Trojans. The decrease in attacks may not necessarily indicate a lower risk for mobile users, as the number of unique users targeted by these threats remained relatively stable. The report emphasizes the importance of staying vigilant and using mobile security solutions to protect against these threats.
 
 ---
 
-> *Everything you can imagine is real.
-Author: Pablo Picasso*
+> *Be a good listener. Your ears will never get you in trouble.
+Author: Frank Tyger*
 
 Source: [IT threat evolution in Q1 2026. Mobile statistics](https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/)
