@@ -6,28 +6,314 @@
     <description>Recent content on DedSec-Terminal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 16:24:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 16:34:24 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lawmakers Demand Answers as CISA Tries to Contain Data Leak</title>
+      <link>http://localhost:1313/posts/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</link>
+      <pubDate>Fri, 22 May 2026 16:34:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</guid>
+      <description>&lt;p&gt;A cybersecurity breach has occurred at the US Cybersecurity and Infrastructure Security Agency (CISA) after a contractor intentionally published sensitive information, including AWS GovCloud keys, on a public GitHub account. The leak, which was reported by KrebsOnSecurity, has raised concerns among lawmakers, with Senators and Representatives demanding answers from CISA.&lt;/p&gt;
+&lt;p&gt;The breach is believed to have occurred in November 2025, and the exposed information includes plaintext credentials to dozens of internal CISA systems. Experts have warned that the leak could provide a roadmap for adversaries to gain access to federal networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</title>
+      <link>http://localhost:1313/posts/ghostwriter-targets-ukraine-government-entities-with-prometheus-phishing-malware/</link>
+      <pubDate>Fri, 22 May 2026 16:20:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ghostwriter-targets-ukraine-government-entities-with-prometheus-phishing-malware/</guid>
+      <description>&lt;p&gt;A cybersecurity threat actor known as Ghostwriter, aligned with Belarus, has been targeting Ukrainian government entities with a phishing campaign using lures related to the Prometheus online learning platform. The campaign, active since spring 2026, involves sending phishing emails with a PDF attachment that leads to the download of a malicious JavaScript file called OYSTERFRESH. This file displays a decoy document while writing an obfuscated payload called OYSTERBLUES to the Windows Registry, which harvests system information and sends it to a command-and-control server. The final payload is believed to be Cobalt Strike, a framework used for post-exploitation activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CISA Security Leak</title>
+      <link>http://localhost:1313/posts/cisa-security-leak/</link>
+      <pubDate>Fri, 22 May 2026 13:58:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cisa-security-leak/</guid>
+      <description>&lt;p&gt;A cybersecurity article reports a significant security leak at the Cybersecurity &amp;amp; Infrastructure Security Agency (CISA). A contractor for CISA had a public GitHub repository that exposed credentials to highly privileged AWS GovCloud accounts and internal CISA systems. The repository included sensitive information on how CISA builds, tests, and deploys software internally. This leak is considered one of the most severe government data breaches in recent history.&lt;/p&gt;
+&lt;p&gt;The article is followed by a commentary criticizing the US government&amp;rsquo;s approach to hiring and appointments, suggesting that loyalty is prioritized over expertise and skill level, leading to unqualified individuals being placed in vital positions. The author argues that this approach has led to a decline in competence and an increase in security risks, ultimately affecting the citizens who fund the government.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows</title>
+      <link>http://localhost:1313/posts/megalodon-github-attack-targets-5561-repos-with-malicious-cicd-workflows/</link>
+      <pubDate>Fri, 22 May 2026 11:55:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/megalodon-github-attack-targets-5561-repos-with-malicious-cicd-workflows/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Megalodon GitHub Attack: 5,561 Repositories Compromised with Malicious CI/CD Workflows&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A new automated campaign, dubbed Megalodon, has targeted 5,561 GitHub repositories, injecting malicious GitHub Actions workflows that exfiltrate sensitive data, including CI secrets, cloud credentials, SSH keys, and source code secrets. The attack, which occurred within a six-hour window, pushed 5,718 malicious commits to the compromised repositories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How the Attack Works:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The attacker uses throwaway GitHub accounts and forged author identities to inject malicious workflows into repositories.&lt;/li&gt;
+&lt;li&gt;The workflows contain base64-encoded bash payloads that steal sensitive data and send it to a command and control (C2) server.&lt;/li&gt;
+&lt;li&gt;The attacker targets CI/CD runners, using two payload variants: SysDiag and Optimize-Build.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Stolen Data:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective</title>
+      <link>http://localhost:1313/posts/making-vulnerable-drivers-exploitable-without-hardware---the-byovd-perspective/</link>
+      <pubDate>Fri, 22 May 2026 11:38:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/making-vulnerable-drivers-exploitable-without-hardware---the-byovd-perspective/</guid>
+      <description>&lt;p&gt;The article &amp;ldquo;Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective&amp;rdquo; discusses how to interact with Windows kernel mode drivers from user mode without the hardware they were developed for. This is particularly relevant for BYOVD (Bring Your Own Vulnerable Driver) attacks, where attackers exploit vulnerabilities in drivers to disrupt system defenses.&lt;/p&gt;
+&lt;p&gt;The article provides a technical analysis of how drivers create and maintain device objects, which are the most viable attack vector. It identifies two common patterns:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload</title>
+      <link>http://localhost:1313/posts/cloud-atlas-activity-in-the-second-half-of-2025-and-early-2026-new-tools-and-a-new-payload/</link>
+      <pubDate>Fri, 22 May 2026 09:12:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cloud-atlas-activity-in-the-second-half-of-2025-and-early-2026-new-tools-and-a-new-payload/</guid>
+      <description>&lt;p&gt;The article discusses the recent activities of the Cloud Atlas APT group, a cyber threat actor that has been active since 2014. The group has been observed using new tools and techniques to target government agencies and diplomatic entities in Russia and Belarus. The main findings of the article are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Initial Infection&lt;/strong&gt;: Cloud Atlas uses phishing emails with malicious attachments, such as ZIP archives containing LNK files, to gain initial access to victim systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Malicious Payload&lt;/strong&gt;: The LNK files execute PowerShell scripts that download and install additional malware, including the VBCloud and PowerShower backdoors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VBCloud Backdoor&lt;/strong&gt;: This backdoor is designed to steal files with specific extensions (e.g., DOC, PDF, XLS) and exfiltrate them to the attackers&amp;rsquo; command and control (C2) server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PowerShower Backdoor&lt;/strong&gt;: This backdoor is used for network reconnaissance and lateral movement within the victim&amp;rsquo;s infrastructure. It can collect information about running processes, administrator groups, and domain controllers, and conduct &amp;ldquo;Kerberoasting&amp;rdquo; attacks to steal password hashes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reverse SSH Tunneling&lt;/strong&gt;: Cloud Atlas uses reverse SSH tunnels to maintain access to compromised systems and bypass firewall rules.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patched OpenSSH&lt;/strong&gt;: The group uses modified OpenSSH binaries to evade detection and ensure stealth.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RevSocks&lt;/strong&gt;: Cloud Atlas also uses RevSocks, a tool written in Golang, to establish tunnels and proxy connections.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tor Tunneling&lt;/strong&gt;: The group uses the Tor network to maintain control over compromised hosts and access them via RDP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Tools&lt;/strong&gt;: Cloud Atlas has developed new tools, such as PowerCloud, which collects user data with administrator privileges and writes it to Google Sheets in Base64 format.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Victims&lt;/strong&gt;: The group&amp;rsquo;s targets are primarily government agencies and diplomatic entities in Russia and Belarus.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The article concludes that Cloud Atlas continues to evolve and expand its arsenal, using new tools and techniques to target its victims. The group&amp;rsquo;s activities are attributed to the Cloud Atlas APT group with a high degree of confidence, based on the use of similar techniques and tools in the past.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks</title>
+      <link>http://localhost:1313/posts/kimwolf-ddos-botnet-operator-arrested-in-canada-over-ddos-for-hire-attacks/</link>
+      <pubDate>Fri, 22 May 2026 08:50:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kimwolf-ddos-botnet-operator-arrested-in-canada-over-ddos-for-hire-attacks/</guid>
+      <description>&lt;p&gt;A 23-year-old Canadian man, Jacob Butler, has been arrested and charged with operating a distributed denial-of-service (DDoS) botnet called Kimwolf. The botnet, a variant of AISURU, infected devices such as digital photo frames and web cameras, and was used to launch DDoS attacks on computers and servers worldwide, including US Department of Defense networks. Butler allegedly sold access to the infected devices to other cybercriminals, who used them to launch attacks. The botnet is estimated to have issued over 25,000 attack commands and was involved in record-setting DDoS attacks. Butler faces up to 10 years in prison if convicted. The arrest is part of a larger law enforcement operation that disrupted the command-and-control infrastructure of several DDoS botnets, including Kimwolf, and seized online services supporting 45 DDoS-for-hire platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV</title>
+      <link>http://localhost:1313/posts/cisa-adds-exploited-langflow-and-trend-micro-apex-one-vulnerabilities-to-kev/</link>
+      <pubDate>Fri, 22 May 2026 05:47:33 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cisa-adds-exploited-langflow-and-trend-micro-apex-one-vulnerabilities-to-kev/</guid>
+      <description>&lt;p&gt;The US Cybersecurity and Infrastructure Security Agency (CISA) has added two vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. The vulnerabilities are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;CVE-2025-34291&lt;/strong&gt; (Langflow): An origin validation error that allows an attacker to execute arbitrary code and compromise the system (CVSS score: 9.4). This vulnerability has been exploited by an Iranian state-sponsored hacking group to gain initial access to target networks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CVE-2026-34926&lt;/strong&gt; (Trend Micro Apex One): A directory traversal vulnerability that allows a local attacker to inject malicious code into the server (CVSS score: 6.7). Trend Micro has observed at least one instance of attempted exploitation in the wild.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As a result, Federal Civilian Executive Branch (FCEB) agencies are required to apply the necessary fixes by June 4, 2026, to secure their networks. The vulnerabilities can lead to severe consequences, including full system compromise, exposure of sensitive access tokens and API keys, and cascading compromise across integrated downstream services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access</title>
+      <link>http://localhost:1313/posts/cisco-patches-cvss-100-secure-workload-rest-api-flaw-enabling-data-access/</link>
+      <pubDate>Fri, 22 May 2026 05:36:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cisco-patches-cvss-100-secure-workload-rest-api-flaw-enabling-data-access/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Cisco Patches Critical Security Flaw in Secure Workload&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cisco has released updates to fix a maximum-severity security vulnerability (CVE-2026-20223, CVSS score: 10.0) in its Secure Workload product. The flaw, which affects both SaaS and on-prem deployments, allows an unauthenticated, remote attacker to access sensitive data by sending a crafted API request. A successful exploit could enable the attacker to read sensitive information and make configuration changes with the privileges of the Site Admin user.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada</title>
+      <link>http://localhost:1313/posts/alleged-kimwolf-botmaster-dort-arrested-charged-in-us-and-canada/</link>
+      <pubDate>Thu, 21 May 2026 21:50:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/alleged-kimwolf-botmaster-dort-arrested-charged-in-us-and-canada/</guid>
+      <description>&lt;p&gt;A 23-year-old Canadian man, Jacob Butler, also known as &amp;ldquo;Dort&amp;rdquo;, has been arrested and charged in both the US and Canada for allegedly building and operating the Kimwolf botnet. The botnet, which infected millions of devices, was used to launch massive distributed denial-of-service (DDoS) attacks over the past six months. The attacks targeted various organizations, including the US Department of Defense, and resulted in financial losses exceeding $1 million for some victims.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work, FTC Says</title>
+      <link>http://localhost:1313/posts/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/</link>
+      <pubDate>Thu, 21 May 2026 21:35:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/</guid>
+      <description>&lt;p&gt;The Federal Trade Commission (FTC) has settled with three marketing companies - Cox Media Group, MindSift LLC, and 1010 Digital Works - over allegations of deceptive advertising practices. The companies claimed to offer a service called &amp;ldquo;Active Listening&amp;rdquo; that could target ads based on audio recordings collected from consumers&amp;rsquo; smart devices. However, the FTC found that this service did not actually work as advertised. The companies claimed to use AI to target ads based on conversations collected from devices such as smartphones, smart TVs, and smart speakers, and also claimed that consumers had consented to the collection and use of their voice data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>macOS Kernel Memory Corruption Exploit</title>
+      <link>http://localhost:1313/posts/macos-kernel-memory-corruption-exploit/</link>
+      <pubDate>Thu, 21 May 2026 16:03:37 +0000</pubDate>
+      <guid>http://localhost:1313/posts/macos-kernel-memory-corruption-exploit/</guid>
+      <description>&lt;p&gt;The article discusses a cybersecurity vulnerability in Apple&amp;rsquo;s macOS, specifically a kernel memory corruption exploit. A group used Anthropic&amp;rsquo;s Mythos AI model to help discover and exploit this vulnerability on Apple&amp;rsquo;s M5 chip. The article does not provide further technical details about the exploit, but it highlights the use of AI in identifying and potentially exploiting security vulnerabilities.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s worth noting that the comments section of the article appears to be unrelated to the topic, containing a poetic and abstract passage that does not provide any additional information about the cybersecurity issue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor</title>
+      <link>http://localhost:1313/posts/showboat-linux-malware-hits-middle-east-telecom-with-socks5-proxy-backdoor/</link>
+      <pubDate>Thu, 21 May 2026 14:17:09 +0000</pubDate>
+      <guid>http://localhost:1313/posts/showboat-linux-malware-hits-middle-east-telecom-with-socks5-proxy-backdoor/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary of Showboat Linux Malware Article&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cybersecurity researchers have discovered a new Linux malware called Showboat, which has been used to target a telecommunications provider in the Middle East since mid-2022. The malware is a modular post-exploitation framework that can spawn a remote shell, transfer files, and function as a SOCKS5 proxy. It is believed to have been employed by threat actors affiliated with China, including the Calypso group, which has been active since 2016 and has targeted state institutions in several countries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories</title>
+      <link>http://localhost:1313/posts/threatsday-bulletin-linux-rootkits-router-0-day-ai-intrusions-scam-kits-and-25-new-stories/</link>
+      <pubDate>Thu, 21 May 2026 11:52:14 +0000</pubDate>
+      <guid>http://localhost:1313/posts/threatsday-bulletin-linux-rootkits-router-0-day-ai-intrusions-scam-kits-and-25-new-stories/</guid>
+      <description>&lt;p&gt;The article discusses various cybersecurity threats and incidents that have occurred recently. Here are the main points:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Zero-day exploits&lt;/strong&gt;: The Pwn2Own Berlin 2026 hacking contest revealed 47 zero-day flaws in various products, including Windows, Linux, VMware, and NVIDIA. The contest awarded $1,298,250 in rewards to security researchers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agentic AI security warning&lt;/strong&gt;: The UK National Cyber Security Centre (NCSC) warned organizations to implement adequate security controls when using agentic artificial intelligence (AI) tools, as they can pose a significant risk if not properly designed or privileged.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Signal alternative&lt;/strong&gt;: The Polish government is urging public officials to stop using Signal and instead use an encrypted messenger called mSzyfr, citing social engineering attacks orchestrated by advanced persistent threat (APT) groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fraud suspects unmasked&lt;/strong&gt;: The Dutch police have unmasked 74 out of 100 suspected fraudsters through an initiative called Game Over?! that displays blurred photos of the suspects on billboards and online advertisements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Espionage admission&lt;/strong&gt;: US President Donald Trump admitted that the US and China engage in cyber espionage activities, including spying on each other.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ransomware attack&lt;/strong&gt;: A ransomware family known as Gunra has targeted five South Korean companies, with the group claiming 32 victims as of March 2026.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Composer token leak&lt;/strong&gt;: Composer, a dependency manager for PHP, has fixed a vulnerability that leaked GitHub tokens, which could be used to access sensitive information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux rootkit&lt;/strong&gt;: A Linux malware named OrBit has been found to be actively refined and maintained by its operators, with new artifacts indicating its continued use by cybercrime groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-driven intrusions&lt;/strong&gt;: Two emerging campaigns, SHADOW-AETHER-040 and SHADOW-AETHER-064, have used agentic AI to facilitate intrusion operations against governments and financial organizations in Latin America.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mythos intel sharing&lt;/strong&gt;: Anthropic has begun allowing users of its Mythos AI model to share cybersecurity threats with others, expanding its intel sharing capabilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discord encryption&lt;/strong&gt;: Discord has announced that all voice and video calls on its platform are now protected by default with end-to-end encryption (E2EE).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Azure identities abused&lt;/strong&gt;: Microsoft has revealed a sophisticated attack by Storm-2949 that abused Azure identities to exfiltrate sensitive data from an organization&amp;rsquo;s high-value assets.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Overall, the article&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Warns of Two Actively Exploited Defender Vulnerabilities</title>
+      <link>http://localhost:1313/posts/microsoft-warns-of-two-actively-exploited-defender-vulnerabilities/</link>
+      <pubDate>Thu, 21 May 2026 10:55:57 +0000</pubDate>
+      <guid>http://localhost:1313/posts/microsoft-warns-of-two-actively-exploited-defender-vulnerabilities/</guid>
+      <description>&lt;p&gt;Microsoft has warned of two actively exploited vulnerabilities in its Defender software. The first vulnerability, CVE-2026-41091, is a privilege escalation flaw that could allow an attacker to gain SYSTEM privileges, and has a CVSS score of 7.8. The second vulnerability, CVE-2026-45498, is a denial-of-service bug with a CVSS score of 4.0. Both vulnerabilities have been addressed in recent updates to Microsoft Defender Antimalware Platform.&lt;/p&gt;
+&lt;p&gt;Microsoft has credited five parties with discovering and reporting the flaws, and the US Cybersecurity and Infrastructure Security Agency (CISA) has added both vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by June 3, 2026.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Hacker Group Is Poisoning Open Source Code at an Unprecedented Scale</title>
+      <link>http://localhost:1313/posts/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/</link>
+      <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/</guid>
+      <description>&lt;p&gt;A hacker group known as TeamPCP has been carrying out a massive series of software supply chain attacks, corrupting hundreds of open-source tools and extorting victims for profit. The group has breached numerous companies, including GitHub, Anthropic, and Mercor, and has accessed thousands of code repositories. TeamPCP&amp;rsquo;s tactics involve gaining access to a network where an open-source tool is being developed, planting malware in the tool, and then using stolen credentials to publish malicious versions of other software development tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros</title>
+      <link>http://localhost:1313/posts/9-year-old-linux-kernel-flaw-enables-root-command-execution-on-major-distros/</link>
+      <pubDate>Thu, 21 May 2026 07:35:53 +0000</pubDate>
+      <guid>http://localhost:1313/posts/9-year-old-linux-kernel-flaw-enables-root-command-execution-on-major-distros/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;9-Year-Old Linux Kernel Vulnerability Discovered&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A cybersecurity research team has identified a 9-year-old flaw in the Linux kernel, tracked as CVE-2026-46333, which allows an unprivileged local user to execute arbitrary commands as root on major Linux distributions such as Debian, Fedora, and Ubuntu. The vulnerability, also known as &amp;ldquo;ssh-keysign-pwn,&amp;rdquo; is caused by improper privilege management in the kernel&amp;rsquo;s &lt;code&gt;__ptrace_may_access()&lt;/code&gt; function, introduced in November 2016.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exploitation and Impact&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The vulnerability can be exploited to disclose sensitive files, including &lt;code&gt;/etc/shadow&lt;/code&gt; and host private keys, and execute arbitrary commands as root through four different exploits. Successful exploitation could allow a local attacker to gain root privileges, potentially leading to a complete system compromise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The EU Is Going Through a Trump-Fueled Breakup With Big Tech</title>
+      <link>http://localhost:1313/posts/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/</link>
+      <pubDate>Thu, 21 May 2026 06:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/</guid>
+      <description>&lt;p&gt;The article discusses how the European Union, particularly France, is accelerating its efforts to reduce its dependence on US technology due to concerns over data security, the Trump administration&amp;rsquo;s unpredictability, and changing prices. The French government is developing and deploying its own technology for government officials, including a video-calling platform called Visio, and a set of productivity tools called &amp;ldquo;LaSuite&amp;rdquo;. The goal is to shift to French, European, and open-source technology alternatives, with data being stored locally in the country.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension</title>
+      <link>http://localhost:1313/posts/github-internal-repositories-breached-via-malicious-nx-console-vs-code-extension/</link>
+      <pubDate>Thu, 21 May 2026 04:27:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-internal-repositories-breached-via-malicious-nx-console-vs-code-extension/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;GitHub Internal Repositories Breach&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub has confirmed a breach of its internal repositories due to a malicious version of the Nx Console VS Code extension. The extension, nrwl.angular-console, was compromised after one of its developers&amp;rsquo; systems was hacked in the wake of the recent TanStack supply chain attack. The breach allowed the threat actor, TeamPCP, to exfiltrate approximately 3,800 repositories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Malicious Extension&lt;/strong&gt;: The poisoned extension was live on Visual Studio Marketplace for only 18 minutes, but it was enough to distribute a credential stealer capable of harvesting sensitive data from various sources.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: GitHub has no evidence of impact to customer information stored outside of its internal repositories, but some internal repositories may contain customer information, such as support interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Response&lt;/strong&gt;: GitHub has taken steps to contain the incident, rotated critical secrets, and is continuing to monitor the situation for follow-on activity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Threat Actor&lt;/strong&gt;: TeamPCP, a cybercriminal group, has gained notoriety for large-scale software supply chain attacks, targeting widely-used open-source projects and security-adjacent tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security Concerns&lt;/strong&gt;: The incident highlights the need for deeper, more fundamental changes to how developer tooling and open source distribution are secured, as well as the risks associated with auto-update features in extension marketplaces.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Recommendations:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks</title>
+      <link>http://localhost:1313/posts/highly-critical-drupal-core-flaw-exposes-postgresql-sites-to-rce-attacks/</link>
+      <pubDate>Thu, 21 May 2026 03:44:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/highly-critical-drupal-core-flaw-exposes-postgresql-sites-to-rce-attacks/</guid>
+      <description>&lt;p&gt;A highly critical security vulnerability (CVE-2026-9082) has been discovered in Drupal Core, affecting sites that use PostgreSQL databases. The vulnerability, with a CVSS score of 6.5, allows attackers to send specially crafted requests, leading to arbitrary SQL injection, information disclosure, privilege escalation, and remote code execution (RCE) attacks.&lt;/p&gt;
+&lt;p&gt;The flaw can be exploited by anonymous users and is fixed in the following Drupal versions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Drupal 11.3.10&lt;/li&gt;
+&lt;li&gt;Drupal 11.2.12&lt;/li&gt;
+&lt;li&gt;Drupal 11.1.10&lt;/li&gt;
+&lt;li&gt;Drupal 10.6.9&lt;/li&gt;
+&lt;li&gt;Drupal 10.5.10&lt;/li&gt;
+&lt;li&gt;Drupal 10.4.10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Drupal 7 is not affected. Manual patches are also available for end-of-life versions 9 and 8. Users of unsupported versions (Drupal 11.1.x, 11.0.x, 10.4.x, and below, as well as Drupal 8 and 9) are advised to upgrade to a supported version as they do not receive security coverage and may have other unpatched vulnerabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Bipartisan Amendment Would End Police License Plate Tracking Nationwide</title>
+      <link>http://localhost:1313/posts/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/</link>
+      <pubDate>Wed, 20 May 2026 21:58:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/</guid>
+      <description>&lt;p&gt;A bipartisan amendment is set to be introduced in the US House of Representatives that would prohibit the use of automated license plate readers (ALPRs) for any purpose other than tolling. The amendment, sponsored by Representatives Scott Perry (R-PA) and Jesús &amp;ldquo;Chuy&amp;rdquo; García (D-IL), would effectively end state and local ALPR programs across the US by conditioning federal highway funding on a ban of the technology.&lt;/p&gt;
+&lt;p&gt;ALPRs, which photograph every passing license plate and log times and locations, have become a pervasive layer of American road infrastructure. However, privacy advocates have warned that the aggregation of license plate data amounts to a de facto warrantless tracking system, and there have been instances of police misuse, including targeting of mosques and disproportionate deployment in low-income neighborhoods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development</title>
+      <link>http://localhost:1313/posts/microsoft-open-sources-rampart-and-clarity-to-secure-ai-agents-during-development/</link>
+      <pubDate>Wed, 20 May 2026 17:06:54 +0000</pubDate>
+      <guid>http://localhost:1313/posts/microsoft-open-sources-rampart-and-clarity-to-secure-ai-agents-during-development/</guid>
+      <description>&lt;p&gt;Microsoft has released two new open-source tools, RAMPART and Clarity, to help developers secure artificial intelligence (AI) agents during development.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RAMPART&lt;/strong&gt;: A testing framework that allows developers to write and run safety and security tests for AI agents, covering issues such as adversarial attacks, cross-prompt injections, and data exfiltration. It evaluates test outcomes and reports results, requiring only an adapter to connect the AI agent to the test suite.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clarity&lt;/strong&gt;: A &amp;ldquo;structured sounding board&amp;rdquo; that guides developers through problem clarification, solution exploration, and decision tracking, helping them identify potential issues before writing code. It acts as an &amp;ldquo;AI thinking partner&amp;rdquo; that pushes back on assumptions, ensuring that decisions are well-informed and secure.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A New York Cop Got Injured at a Boxing Match. Now Madison Square Garden Is Banning His Lawyer</title>
       <link>http://localhost:1313/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/</link>
       <pubDate>Wed, 20 May 2026 16:24:52 +0000</pubDate>
       <guid>http://localhost:1313/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/</guid>
-      <description>&lt;p&gt;A New York police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden during a boxing match. The officer, a seven-year veteran of the NYPD, was knocked to the ground and pinned beneath several people during a scuffle involving the rapper Lil Tjay and his entourage. Przybyszewski claims to have suffered significant cervical and lumbar spine injuries, some of which are permanent, and has sued both Lil Tjay and Madison Square Garden. His lawyer, John Scola, who frequently represents NYPD officers in disputes, filed the lawsuit in February of this year, alleging that the Garden&amp;rsquo;s operational decisions placed Przybyszewski in harm&amp;rsquo;s way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A New York City police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden (MSG) during a boxing match. He sued MSG, claiming that the venue&amp;rsquo;s decisions put him in harm&amp;rsquo;s way, resulting in significant and permanent injuries. The officer&amp;rsquo;s lawyer, John Scola, who frequently represents NYPD officers, filed the lawsuit.&lt;/p&gt;
+&lt;p&gt;As a result, Scola has been banned from MSG and other venues owned by James Dolan, the CEO of MSG. This ban is part of a long-standing practice by Dolan to exclude individuals and law firms involved in legal disputes with MSG from his venues, using a sophisticated facial recognition system to enforce the ban.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks</title>
+      <link>http://localhost:1313/posts/microsoft-takes-down-malware-signing-service-behind-ransomware-attacks/</link>
+      <pubDate>Wed, 20 May 2026 14:36:44 +0000</pubDate>
+      <guid>http://localhost:1313/posts/microsoft-takes-down-malware-signing-service-behind-ransomware-attacks/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Microsoft Disrupts Malware-Signing Service Behind Ransomware Attacks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft has taken down a malware-signing-as-a-service (MSaaS) operation, known as Fox Tempest, which used the company&amp;rsquo;s Artifact Signing system to deliver malicious code and conduct ransomware attacks. The operation, active since May 2025, allowed cybercriminals to disguise malware as legitimate software, compromising thousands of machines and networks worldwide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Findings:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Fox Tempest&amp;rsquo;s Operation&lt;/strong&gt;: The threat actor offered a MSaaS scheme, allowing cybercriminals to upload malicious files for code-signing using fraudulently obtained certificates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connections to Ransomware Strains&lt;/strong&gt;: Fox Tempest has connections to affiliates associated with prominent ransomware strains, including INC, Qilin, BlackByte, and Akira.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Targets&lt;/strong&gt;: Attacks targeted healthcare, education, government, and financial services in the U.S., France, India, and China.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Artifact Signing Exploitation&lt;/strong&gt;: Fox Tempest leveraged Microsoft&amp;rsquo;s Artifact Signing mechanism to generate short-lived, fraudulent code-signing certificates, allowing them to deliver trusted, signed malware.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Disruption Efforts:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>On AI Security</title>
       <link>http://localhost:1313/posts/on-ai-security/</link>
       <pubDate>Wed, 20 May 2026 14:21:20 +0000</pubDate>
       <guid>http://localhost:1313/posts/on-ai-security/</guid>
-      <description>&lt;p&gt;Measuring the security of artificial intelligence (AI) systems is a complex task that cannot be accomplished by simply maximizing security and privacy benchmarks. Benchmarks are ineffective in measuring AI capabilities, particularly when it comes to emergent systemic properties like security. To address this challenge, it&amp;rsquo;s essential to understand how security is measured in the first place. Over the past 30 years, security engineering for software has evolved significantly, from black box penetration testing to process-driven standards like the Building Security In Maturity Model (BSIMM).&lt;/p&gt;</description>
+      <description>&lt;p&gt;The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and penetration testing, are not effective for AI systems.&lt;/p&gt;
+&lt;p&gt;A commenter, Clive Robinson, expands on this idea by explaining that measuring information in AI systems is complex due to the continuous values and spectrums involved. He references the &amp;ldquo;continuum hypothesis&amp;rdquo; and notes that the set of real numbers, which is used in AI systems, has a different cardinality than natural numbers. This makes it difficult to measure and trust the output of LLMs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API</title>
+      <link>http://localhost:1313/posts/webworm-deploys-echocreep-and-graphworm-backdoors-using-discord-and-ms-graph-api/</link>
+      <pubDate>Wed, 20 May 2026 12:51:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/webworm-deploys-echocreep-and-graphworm-backdoors-using-discord-and-ms-graph-api/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary of Cybersecurity Article: Webworm Deploys Custom Backdoors Using Discord and MS Graph API&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cybersecurity researchers have identified new activity from the China-aligned threat actor Webworm, which has been active since at least 2022. Webworm has been targeting government agencies and enterprises in various sectors, including IT services, aerospace, and electric power, in countries such as Russia, Georgia, Mongolia, and several other Asian nations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Backdoors: EchoCreep and GraphWorm&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Webworm has added two new custom backdoors to its toolkit: EchoCreep and GraphWorm. EchoCreep uses Discord for command-and-control (C2) communications, while GraphWorm uses Microsoft Graph API. These backdoors allow for file upload/download, command execution, and other malicious activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agent AI is Coming. Are You Ready?</title>
+      <link>http://localhost:1313/posts/agent-ai-is-coming-are-you-ready/</link>
+      <pubDate>Wed, 20 May 2026 11:58:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/agent-ai-is-coming-are-you-ready/</guid>
+      <description>&lt;p&gt;New Industry Data Just Released Suggests Not.
+On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, &amp;ldquo;identity dark matter&amp;rdquo; (the unseen, unmanaged elements of identity) now overshadows the visible elements 57% vs. 43%. And it couldn&amp;rsquo;t have occurred at a worse time, with enterprises embracing Agent AI with both arms (and unfortunately, as Orchid co-founder Robert Wiseman explains, more than one eye closed).
+Why the concern, you may ask?
+AI agents are shortcut-seekers by design. When given a task, they are trained to find the most efficient way to complete it, with the speed of machines and the creativity of humans. Denied access to a necessary system? Use a hard-coded credential stored in plaintext within the application. Need information they aren&amp;rsquo;t entitled to read? &amp;ldquo;Borrow&amp;rdquo; a credential with higher privilege. Constantly being cha&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800&#43; Internal Repos</title>
+      <link>http://localhost:1313/posts/github-breached--employee-device-hack-led-to-exfiltration-of-3800-internal-repos/</link>
+      <pubDate>Wed, 20 May 2026 11:38:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-breached--employee-device-hack-led-to-exfiltration-of-3800-internal-repos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;GitHub Breach: Employee Device Hack Leads to Exfiltration of 3,800+ Internal Repos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub, a Microsoft-owned subsidiary, has announced that it is investigating an unauthorized access to its internal repositories after a threat actor known as TeamPCP listed the platform&amp;rsquo;s source code and internal organizations for sale on a cybercrime forum. The breach occurred due to a compromised employee device, which was infected with a poisoned Microsoft Visual Studio Code extension.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How an image could compromise your Mac: understanding an ExifTool vulnerability (CVE-2026-3102)</title>
       <link>http://localhost:1313/posts/how-an-image-could-compromise-your-mac-understanding-an-exiftool-vulnerability-cve-2026-31/</link>
       <pubDate>Wed, 20 May 2026 09:02:31 +0000</pubDate>
       <guid>http://localhost:1313/posts/how-an-image-could-compromise-your-mac-understanding-an-exiftool-vulnerability-cve-2026-31/</guid>
-      <description>&lt;p&gt;A vulnerability, designated as CVE-2026-3102, was discovered in ExifTool, a utility used for reading and writing metadata in various file types. This flaw affects macOS systems with ExifTool version 13.49 and earlier, allowing an attacker to execute arbitrary shell commands with the privileges of the user invoking ExifTool. The vulnerability is triggered when the -n flag is used, which outputs machine-readable data without additional processing. An attacker can hide malicious instructions inside an image file&amp;rsquo;s metadata, specifically in the FileCreateDate parameter, by injecting quotes into this field.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The article discusses a vulnerability in ExifTool, a widely used utility for reading and writing metadata in image, PDF, audio, and video files. The vulnerability, identified as CVE-2026-3102, was discovered by Kaspersky&amp;rsquo;s Global Research and Analysis Team in February 2026 and patched by the developers within the same month.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vulnerability Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The vulnerability affects macOS systems with ExifTool version 13.49 and earlier.&lt;/li&gt;
+&lt;li&gt;It allows an attacker to run arbitrary commands by hiding instructions inside an image file&amp;rsquo;s metadata.&lt;/li&gt;
+&lt;li&gt;The vulnerability is triggered when the &lt;code&gt;-n&lt;/code&gt; flag is used, which outputs machine-readable data without additional processing.&lt;/li&gt;
+&lt;li&gt;The attacker can inject malicious commands into the &lt;code&gt;FileCreateDate&lt;/code&gt; metadata field, which is not properly sanitized.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exploitation:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Brokers’ and AI Firms’ Opt-Out Forms Are Built to Fail, Report Finds</title>
@@ -37,25 +323,69 @@
       <description>&lt;p&gt;The Electronic Privacy Information Center (EPIC) has released a report detailing the deceptive methods used by major data-collecting companies to prevent consumers from opting out of the sale and sharing of their personal information. The report found that 38 major data companies, including Google, Meta, and OpenAI, use manipulative design to make it difficult for users to opt out, with tactics such as burying links in fine print, requiring multiple forms to be completed, and demanding that users create accounts or pay for subscriptions before opting out.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit</title>
+      <link>http://localhost:1313/posts/microsoft-releases-mitigation-for-yellowkey-bitlocker-bypass-cve-2026-45585-exploit/</link>
+      <pubDate>Wed, 20 May 2026 08:28:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/microsoft-releases-mitigation-for-yellowkey-bitlocker-bypass-cve-2026-45585-exploit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Microsoft Releases Fix for YellowKey BitLocker Bypass Vulnerability&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft has released a mitigation for a zero-day vulnerability known as YellowKey (CVE-2026-45585), which allows attackers to bypass BitLocker encryption on Windows devices. The vulnerability, disclosed by security researcher Chaotic Eclipse, affects Windows 11 and Windows Server 2025, and can be exploited by placing specially crafted files on a USB drive or EFI partition, then rebooting into the Windows Recovery Environment (WinRE) and triggering a shell with unrestricted access.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grafana GitHub Breach Exposes Source Code via TanStack npm Attack</title>
+      <link>http://localhost:1313/posts/grafana-github-breach-exposes-source-code-via-tanstack-npm-attack/</link>
+      <pubDate>Wed, 20 May 2026 05:12:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/grafana-github-breach-exposes-source-code-via-tanstack-npm-attack/</guid>
+      <description>&lt;p&gt;A cybersecurity breach occurred at Grafana Labs, a company that creates open-source visualization software, on May 11, 2026. The breach was caused by the TanStack npm supply chain attack, which was also responsible for breaches at OpenAI and Mistral AI. The attackers gained access to Grafana&amp;rsquo;s GitHub environment, including public and private source code, as well as internal operational information and business contact details. However, the company stated that no customer production systems or operations were compromised.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability</title>
+      <link>http://localhost:1313/posts/dirtydecrypt-poc-released-for-linux-kernel-cve-2026-31635-lpe-vulnerability/</link>
+      <pubDate>Tue, 19 May 2026 14:56:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dirtydecrypt-poc-released-for-linux-kernel-cve-2026-31635-lpe-vulnerability/</guid>
+      <description>&lt;p&gt;A proof-of-concept (PoC) exploit code has been released for a Linux kernel vulnerability known as DirtyDecrypt (CVE-2026-31635), which allows for local privilege escalation (LPE). The vulnerability was discovered by the Zellic and V12 security team and is a variant of previously disclosed vulnerabilities such as Copy Fail, Dirty Frag, and Fragnesia.&lt;/p&gt;
+&lt;p&gt;The DirtyDecrypt vulnerability is caused by a missing copy-on-write (COW) guard in the &lt;code&gt;rxgk_decrypt_skb&lt;/code&gt; function, which allows an attacker to write to the memory of privileged processes or the page cache of privileged files, leading to LPE. The vulnerability only affects Linux distributions with &lt;code&gt;CONFIG_RXGK&lt;/code&gt; enabled, such as Fedora, Arch Linux, and openSUSE Tumbleweed.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Laurie Anderson Is Quoting Me</title>
       <link>http://localhost:1313/posts/laurie-anderson-is-quoting-me/</link>
       <pubDate>Tue, 19 May 2026 11:00:01 +0000</pubDate>
       <guid>http://localhost:1313/posts/laurie-anderson-is-quoting-me/</guid>
-      <description>&lt;p&gt;The article discusses a quote that has been attributed to the author, which states &amp;ldquo;If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.&amp;rdquo; This quote has been referenced by artist Laurie Anderson in one of her tracks and in interviews, where she expresses her agreement with the sentiment. The origin of the quote can be traced back to Roger Needham, a cryptologist who said &amp;ldquo;If you think cryptography can solve your problem, you don’t understand your problem and you don’t understand cryptography.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Laurie Anderson Is Quoting Me
+Not by name, but Laurie Anderson quotes me in one of the tracks of her new album:
+My favorite quote is from a cryptologist who said “If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.”
+Also in interviews:
+“Of course, it’s ridiculous, outrageous, blah, blah, blah,” Anderson says about the ad. ‘But, I mean, my favorite quote on this is from a cryptologist who said, ‘If you think technology will solve your problems, you don’t understand technology Â and you don’t understand your problems.’ And I think I’m completely on board with that.”
+People are telling me that she has been reciting this quote in performances for years. (I lost track of her since college and her 1981 hit “O Superman.”)
+The origins of the quote is from Roger Needham:
+If you think cryptography can solve your problem, you don&lt;/p&gt;</description>
     </item>
     <item>
       <title>You Can Get Some of Your Nudes Removed From the Internet Under a New Law</title>
       <link>http://localhost:1313/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/</link>
       <pubDate>Tue, 19 May 2026 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/</guid>
-      <description>&lt;p&gt;The Take It Down Act, a US law backed by First Lady Melania Trump, requires tech platforms to provide a way for people to report nonconsensual intimate images and videos, or NCII, uploaded to their platforms. The law applies broadly to a range of apps and online services, including social media and gaming platforms. As of May 19, companies must have a system in place for users to submit takedown requests, which must include a way for the platform to locate the content, a statement explaining that it was not uploaded consensually, and a signature from the person depicted or someone authorized to act on their behalf.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A new US law, the Take It Down Act, requires tech platforms to provide a way for people to report nonconsensual intimate images and videos (NCII) uploaded to their platforms. The law, which went into effect on May 19, applies to a range of apps and online services, including social media and gaming platforms.&lt;/p&gt;
+&lt;p&gt;To comply with the law, platforms must make it easy for people to submit removal requests, which must include:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CISA Admin Leaked AWS GovCloud Keys on Github</title>
+      <link>http://localhost:1313/posts/cisa-admin-leaked-aws-govcloud-keys-on-github/</link>
+      <pubDate>Mon, 18 May 2026 20:48:21 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cisa-admin-leaked-aws-govcloud-keys-on-github/</guid>
+      <description>&lt;p&gt;Until this past weekend, a contractor for the Cybersecurity &amp;amp; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.
+On May 15, KrebsOnSecurity heard from Guillaume Valadon, a researcher with the security firm GitGuardian. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. Valadon said he reached out because the owner in this case wasn’t responding and the information exposed was highly sensitive.
+The&lt;/p&gt;</description>
     </item>
     <item>
       <title>IT threat evolution in Q1 2026. Mobile statistics</title>
       <link>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-mobile-statistics/</link>
       <pubDate>Mon, 18 May 2026 12:00:30 +0000</pubDate>
       <guid>http://localhost:1313/posts/it-threat-evolution-in-q1-2026-mobile-statistics/</guid>
-      <description>&lt;p&gt;In Q1 2026, the Kaspersky Security Network reported over 2.67 million attacks utilizing malware, adware, or unwanted mobile software. The Trojan-Banker category was the most prevalent mobile malware threat, accounting for 10.86% of total detections. More than 306,000 malicious installation packages were discovered, including 162,275 packages related to mobile banking Trojans and 439 packages related to mobile ransomware Trojans. The number of malware, adware, or unwanted software attacks on mobile devices decreased to 2,676,328 in Q1, down from 3,239,244 in the previous quarter, primarily due to a reduction in adware and RiskTool detections.&lt;/p&gt;</description>
+      <description>&lt;p&gt;IT threat evolution in Q1 2026. Mobile statistics
+IT threat evolution in Q1 2026. Non-mobile statistics
+In the third quarter of 2025, we updated the methodology for calculating statistical indicators based on the Kaspersky Security Network. These changes affected all sections of the report except for the statistics on installation packages, which remained unchanged.
+To illustrate the differences between the reporting periods, we have also recalculated data for the previous quarters. Consequently, these figures may significantly differ from the previously published ones. However, subsequent reports will employ this new methodology, enabling precise comparisons with the data presented in this post.
+The Kaspersky Security Network (KSN) is a global network for analyzing anonymized threat information, voluntarily shared by users of Kaspersky solutions. The statistics in this report are based&lt;/p&gt;</description>
     </item>
     <item>
       <title>IT threat evolution in Q1 2026. Non-mobile statistics</title>
@@ -77,7 +407,9 @@
       <link>http://localhost:1313/posts/cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/</link>
       <pubDate>Sat, 16 May 2026 10:30:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/</guid>
-      <description>&lt;p&gt;Cybercriminal twins, Muneeb and Sohaib Akhter, have pleaded guilty to charges of destroying 96 government databases after being fired from their jobs at federal contractor Opexus. The brothers&amp;rsquo; revenge campaign was recorded by a Microsoft Teams meeting that they had failed to close, which was later transcribed in a court document. The recording revealed the detailed planning and execution of their attack, with Sohaib asking his brother if they were still connected to the VPN and if they should delete all the databases. The twins&amp;rsquo; mistake has hopefully driven home the lesson to future criminal hackers to close out meetings before discussing illicit activities.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The worst part of your iPhone getting stolen may not be the theft itself. Instead, it’s the phishing attacks waged against people in your contacts. New research this week shows that there’s a thriving ecosystem for tools that let criminals unlock iPhones and target the phone numbers they find inside.
+Foxconn, the electronics manufacturing giant known for its role in building iPhones, revealed this week that it recently “suffered a cyberattack.” A ransomware group known as Nitrogen, claimed responsibility for the hack and said it had stolen 8 TB of data from the manufacturer. While the theft remains unconfirmed, the fact that Foxconn remains a valuable target is all but inevitable.
+The skies above the United States-Canada border are about to get a lot more crowded. The Department of Homeland Security and Defense Research and Development Canada plan to run an experiment this fall testing 5&lt;/p&gt;</description>
     </item>
     <item>
       <title>Friday Squid Blogging: Bigfin Squid</title>
@@ -94,6 +426,13 @@
       <description>&lt;p&gt;Some AI-based video age-verification checks can be bypassed using simple methods such as wearing a fake mustache. The primary purpose of these checks is not to verify age, but to de-anonymize critics and enable governments to deny access to online platforms. The failure to keep minors out of adult spaces is not surprising, as this is not the ultimate goal of these checks. Researchers have found that current zero-knowledge proofs have several failings, including the need for interaction, setup, and imperfect soundness.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Upcoming Speaking Engagements</title>
+      <link>http://localhost:1313/posts/upcoming-speaking-engagements/</link>
+      <pubDate>Thu, 14 May 2026 16:01:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/upcoming-speaking-engagements/</guid>
+      <description>&lt;p&gt;The article is not about cybersecurity, but rather a list of upcoming speaking engagements for the author. The author will be giving talks on various topics, including &amp;ldquo;The Security of Trust in the Age of AI&amp;rdquo;, at conferences in the US, Germany, and Austria between May and July 2026. A commenter, Clive Robinson, wishes the author well and mentions the pleasant aspects of visiting Germany and Austria in the summer.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Kimsuky targets organizations with PebbleDash-based tools</title>
       <link>http://localhost:1313/posts/kimsuky-targets-organizations-with-pebbledash-based-tools/</link>
       <pubDate>Thu, 14 May 2026 11:00:58 +0000</pubDate>
@@ -105,7 +444,17 @@
       <link>http://localhost:1313/posts/your-iphone-gets-stolen-then-the-hacking-begins/</link>
       <pubDate>Thu, 14 May 2026 10:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/your-iphone-gets-stolen-then-the-hacking-begins/</guid>
-      <description>&lt;p&gt;Millions of phones are stolen every year, and while some are sold for parts, others are unlocked and resold for a higher profit. Researchers at cybersecurity firm Infoblox have uncovered a thriving ecosystem of software sellers that provide &amp;ldquo;unlocking&amp;rdquo; tools and technology to help gain access to stolen iPhones. These tools are sold on the web and on Telegram, with prices averaging below $10, and are used to unlock devices, often through phishing attacks. The researchers have tracked dozens of groups selling these tools and linked over 10,000 phishing websites to the activity, with traffic to these domains increasing by 350% last year.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Every year, millions of phones are stolen. While thousands of iPhones are shipped to China and broken down for parts, criminals can make more money selling a device that has been unlocked and wiped. Now researchers have unpicked part of the underground web of cybercrime services that can help provide access to stolen iPhones.
+Across the web and on Telegram, there’s a “thriving” ecosystem of software sellers helping power the market for stolen iPhones by providing “unlocking” tools and the technology to produce phishing messages to help get access to a phone, according to findings from researchers at cybersecurity firm Infoblox. The company says it has tracked “dozens” of groups selling unlocking tools, mostly with a focus on iPhones, and has linked more than 10,000 phishing websites to the activity. Traffic to these domains increased 350 percent last year, the researchers say.
+“Reselling&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foxconn Ransomware Attack Shows Nothing Is Safe Forever</title>
+      <link>http://localhost:1313/posts/foxconn-ransomware-attack-shows-nothing-is-safe-forever/</link>
+      <pubDate>Tue, 12 May 2026 21:52:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/foxconn-ransomware-attack-shows-nothing-is-safe-forever/</guid>
+      <description>&lt;p&gt;A ransomware group is attempting to extort the electronics manufacturing giant Foxconn, claiming that it stole 8 terabytes of data from the company, including schematics and project details from customers including Dell, Google, Apple, and Nvidia. Foxconn did not immediately respond to WIRED&amp;rsquo;s request for comment about the validity of the claims, but the company did acknowledge that some of its North American factories “suffered a cyberattack” in recent days, and that &amp;ldquo;affected factories are currently resuming normal production” after outages.
+Foxconn is the type of target that is particularly appealing to ransomware and data extortion actors, because it is a massive company with divisions and subsidiaries around the world that hold not only its own intellectual property but that of its customers. The company is a key manufacturing contractor for electronic components or entire devices,&lt;/p&gt;</description>
     </item>
     <item>
       <title>State of ransomware in 2026</title>
@@ -113,6 +462,24 @@
       <pubDate>Tue, 12 May 2026 07:00:04 +0000</pubDate>
       <guid>http://localhost:1313/posts/state-of-ransomware-in-2026/</guid>
       <description>&lt;p&gt;The ransomware landscape in 2026 is characterized by the emergence of new families adopting post-quantum cryptography ciphers, making it nearly impossible for victims to decrypt their data without paying a ransom. Despite a decline in ransomware attacks, organizations across all sectors continue to face a high likelihood of attack, with the manufacturing sector alone potentially losing over $18 billion in 2025. Ransomware operators are refining their tactics, prioritizing neutralizing endpoint defenses before executing their payloads, and using tools like &amp;ldquo;EDR killers&amp;rdquo; to terminate security processes and disable monitoring agents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Websites with an undefined trust level: avoiding the trap</title>
+      <link>http://localhost:1313/posts/websites-with-an-undefined-trust-level-avoiding-the-trap/</link>
+      <pubDate>Wed, 06 May 2026 09:30:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/websites-with-an-undefined-trust-level-avoiding-the-trap/</guid>
+      <description>&lt;p&gt;The article discusses the dangers of suspicious websites that cannot be definitively classified as phishing but engage in unsafe activities. These sites manipulate users into voluntarily transferring money for non-existent services, signing up for hidden subscriptions, or disclosing personal data. Kaspersky has introduced a new web filtering category, &amp;ldquo;Sites with an undefined trust level,&amp;rdquo; to detect such resources.&lt;/p&gt;
+&lt;p&gt;The article highlights the following key points:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Types of suspicious sites&lt;/strong&gt;: Fake online stores, dubious crypto exchanges, investment platforms, and services with paid subscriptions are common examples of suspicious sites.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dangers of suspicious sites&lt;/strong&gt;: Visiting or buying from untrusted websites can lead to financial loss, fraud, and exposure of personal data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Common indicators of suspicious sites&lt;/strong&gt;: Strange domain names, cheap top-level domains, recently registered domains, unrealistic promises, lack of company contact information, and payments only via cryptocurrency or irreversible bank transfers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual and manual clues&lt;/strong&gt;: Scam sites often have unprofessional visuals, poor language, and persuasive content. Legitimate businesses provide verifiable contact details, while scam sites hide this information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technical indicators&lt;/strong&gt;: Kaspersky&amp;rsquo;s system analyzes domain name and age, IP address reputation, DNS configuration, HTTP security headers, and SSL certificate to detect suspicious resources.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regional threats&lt;/strong&gt;: Kaspersky&amp;rsquo;s regional statistics reveal specific threats in different regions, such as fake online trading scam platforms in Africa and fake betting services in Latin America.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protection measures&lt;/strong&gt;: Combining visual inspection, technical checks, and trusted online tools can help protect against financial loss and data theft.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To stay safe, users should be cautious when visiting unfamiliar websites and look out for red flags such as strange domain names, unrealistic promises, and lack of contact information. It is also essential to use reputable security software and keep software up to date to protect against online threats.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

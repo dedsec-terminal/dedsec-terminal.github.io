@@ -1,74 +1,168 @@
 {{ define "main" }}
 
-{{ $posts := sort (where .Site.RegularPages "Section" "posts") "Date" "desc" }}
+{{ $posts := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
 
-<div class="post-content">
+<style>
+.intel-section {
+    margin-bottom: 2rem;
+}
 
-  <h1>DedSec-Terminal</h1>
-  <p>
-    Cyber Threat Intelligence, Data Breaches,
-    CVEs, Malware Tracking & Security Research.
-  </p>
+.intel-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
-  <hr>
+.intel-card {
+    background: var(--entry);
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease;
+}
 
-  <h2>Latest Intelligence</h2>
+.intel-card:hover {
+    transform: translateY(-2px);
+}
 
-  {{ range first 1 $posts }}
-    <article>
-      <h3>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h3>
+.intel-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+}
 
-      <small>
-        Posted on {{ .Date.Format "Jan 02, 2006" }}
-      </small>
+.intel-card h3 a {
+    text-decoration: none;
+}
 
-      <p>{{ .Summary }}</p>
-    </article>
-  {{ end }}
+.intel-meta {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 6px;
+}
+</style>
 
-  <hr>
+<div class="main">
 
-  <h2>Threat Intel</h2>
-  {{ range first 5 (where $posts "Params.categories" "intersect" (slice "threat-intel")) }}
-    <p>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      — {{ .Date.Format "Jan 02, 2006" }}
-    </p>
-  {{ end }}
+    <header class="page-header">
+        <h1>DedSec-Terminal</h1>
+        <div class="post-description">
+            Cyber Threat Intelligence, Data Breaches, CVEs,
+            Malware Tracking & Security Research.
+        </div>
+    </header>
 
-  <h2>Data Breaches</h2>
-  {{ range first 5 (where $posts "Params.categories" "intersect" (slice "data-breaches")) }}
-    <p>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      — {{ .Date.Format "Jan 02, 2006" }}
-    </p>
-  {{ end }}
+    <!-- Latest Intelligence -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Latest Intelligence</h2>
+        </div>
 
-  <h2>CVEs</h2>
-  {{ range first 5 (where $posts "Params.categories" "intersect" (slice "cves")) }}
-    <p>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      — {{ .Date.Format "Jan 02, 2006" }}
-    </p>
-  {{ end }}
+        {{ range first 1 $posts }}
+        <article class="intel-card">
+            <h3>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </h3>
 
-  <h2>Malware</h2>
-  {{ range first 5 (where $posts "Params.categories" "intersect" (slice "malware")) }}
-    <p>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      — {{ .Date.Format "Jan 02, 2006" }}
-    </p>
-  {{ end }}
+            <div class="intel-meta">
+                {{ .Date.Format "Jan 02, 2006 · 15:04 UTC" }}
+            </div>
 
-  <h2>Research</h2>
-  {{ range first 5 (where $posts "Params.categories" "intersect" (slice "research")) }}
-    <p>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      — {{ .Date.Format "Jan 02, 2006" }}
-    </p>
-  {{ end }}
+            <p>{{ .Summary | truncate 220 }}</p>
+        </article>
+        {{ end }}
+    </section>
+
+    <!-- Threat Intel -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Threat Intel</h2>
+        </div>
+
+        <div class="intel-grid">
+            {{ range first 5 (where $posts "Params.categories" "intersect" (slice "threat-intel")) }}
+            <article class="intel-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="intel-meta">
+                    {{ .Date.Format "Jan 02, 2006" }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Data Breaches -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Data Breaches</h2>
+        </div>
+
+        <div class="intel-grid">
+            {{ range first 5 (where $posts "Params.categories" "intersect" (slice "data-breaches")) }}
+            <article class="intel-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="intel-meta">
+                    {{ .Date.Format "Jan 02, 2006" }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- CVEs -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>CVEs</h2>
+        </div>
+
+        <div class="intel-grid">
+            {{ range first 5 (where $posts "Params.categories" "intersect" (slice "cves")) }}
+            <article class="intel-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="intel-meta">
+                    {{ .Date.Format "Jan 02, 2006" }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Malware -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Malware</h2>
+        </div>
+
+        <div class="intel-grid">
+            {{ range first 5 (where $posts "Params.categories" "intersect" (slice "malware")) }}
+            <article class="intel-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="intel-meta">
+                    {{ .Date.Format "Jan 02, 2006" }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Research -->
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Research</h2>
+        </div>
+
+        <div class="intel-grid">
+            {{ range first 5 (where $posts "Params.categories" "intersect" (slice "research")) }}
+            <article class="intel-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="intel-meta">
+                    {{ .Date.Format "Jan 02, 2006" }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
 
 </div>
 

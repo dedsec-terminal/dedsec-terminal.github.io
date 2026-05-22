@@ -71,98 +71,307 @@
 
 
 
-<div class="post-content">
+<style>
+.intel-section {
+    margin-bottom: 2rem;
+}
 
-  <h1>DedSec-Terminal</h1>
-  <p>
-    Cyber Threat Intelligence, Data Breaches,
-    CVEs, Malware Tracking & Security Research.
-  </p>
+.intel-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
-  <hr>
+.intel-card {
+    background: var(--entry);
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease;
+}
 
-  <h2>Latest Intelligence</h2>
+.intel-card:hover {
+    transform: translateY(-2px);
+}
 
-  
-    <article>
-      <h3>
-        <a href="/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/">A New York Cop Got Injured at a Boxing Match. Now Madison Square Garden Is Banning His Lawyer</a>
-      </h3>
+.intel-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+}
 
-      <small>
-        Posted on May 20, 2026
-      </small>
+.intel-card h3 a {
+    text-decoration: none;
+}
 
-      <p><p>A New York police officer, John Przybyszewski, was injured while working a private security gig at Madison Square Garden during a boxing match. The officer, a seven-year veteran of the NYPD, was knocked to the ground and pinned beneath several people during a scuffle involving the rapper Lil Tjay and his entourage. Przybyszewski claims to have suffered significant cervical and lumbar spine injuries, some of which are permanent, and has sued both Lil Tjay and Madison Square Garden. His lawyer, John Scola, who frequently represents NYPD officers in disputes, filed the lawsuit in February of this year, alleging that the Garden&rsquo;s operational decisions placed Przybyszewski in harm&rsquo;s way.</p></p>
-    </article>
-  
+.intel-meta {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 6px;
+}
+</style>
 
-  <hr>
+<div class="main">
 
-  <h2>Threat Intel</h2>
-  
+    <header class="page-header">
+        <h1>DedSec-Terminal</h1>
+        <div class="post-description">
+            Cyber Threat Intelligence, Data Breaches, CVEs,
+            Malware Tracking & Security Research.
+        </div>
+    </header>
 
-  <h2>Data Breaches</h2>
-  
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Latest Intelligence</h2>
+        </div>
 
-  <h2>CVEs</h2>
-  
+        
+        <article class="intel-card">
+            <h3>
+                <a href="/posts/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/">
+                    Lawmakers Demand Answers as CISA Tries to Contain Data Leak
+                </a>
+            </h3>
 
-  <h2>Malware</h2>
-  
-    <p>
-      <a href="/posts/how-an-image-could-compromise-your-mac-understanding-an-exiftool-vulnerability-cve-2026-31/">How an image could compromise your Mac: understanding an ExifTool vulnerability (CVE-2026-3102)</a>
-      — May 20, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/it-threat-evolution-in-q1-2026-mobile-statistics/">IT threat evolution in Q1 2026. Mobile statistics</a>
-      — May 18, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/it-threat-evolution-in-q1-2026-non-mobile-statistics/">IT threat evolution in Q1 2026. Non-mobile statistics</a>
-      — May 18, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/kimsuky-targets-organizations-with-pebbledash-based-tools/">Kimsuky targets organizations with PebbleDash-based tools</a>
-      — May 14, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/state-of-ransomware-in-2026/">State of ransomware in 2026</a>
-      — May 12, 2026
-    </p>
-  
+            <div class="intel-meta">
+                May 22, 2026 · 16:34 UTC
+            </div>
 
-  <h2>Research</h2>
-  
-    <p>
-      <a href="/posts/a-new-york-cop-got-injured-at-a-boxing-match-now-madison-square-garden-is-banning-his-lawy/">A New York Cop Got Injured at a Boxing Match. Now Madison Square Garden Is Banning His Lawyer</a>
-      — May 20, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/on-ai-security/">On AI Security</a>
-      — May 20, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/">Data Brokers’ and AI Firms’ Opt-Out Forms Are Built to Fail, Report Finds</a>
-      — May 20, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/laurie-anderson-is-quoting-me/">Laurie Anderson Is Quoting Me</a>
-      — May 19, 2026
-    </p>
-  
-    <p>
-      <a href="/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/">You Can Get Some of Your Nudes Removed From the Internet Under a New Law</a>
-      — May 19, 2026
-    </p>
-  
+            <p><p>A cybersecurity breach has occurred at the US Cybersecurity and Infrastructure Security Agency (CISA) after a contractor intentionally published sensitive information, including AWS GovCloud keys, on a public GitHub …</p></p>
+        </article>
+        
+    </section>
+
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Threat Intel</h2>
+        </div>
+
+        <div class="intel-grid">
+            
+            <article class="intel-card">
+                <h3><a href="/posts/kimwolf-ddos-botnet-operator-arrested-in-canada-over-ddos-for-hire-attacks/">Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/alleged-kimwolf-botmaster-dort-arrested-charged-in-us-and-canada/">Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada</a></h3>
+                <div class="intel-meta">
+                    May 21, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/">‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work, FTC Says</a></h3>
+                <div class="intel-meta">
+                    May 21, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/">The EU Is Going Through a Trump-Fueled Breakup With Big Tech</a></h3>
+                <div class="intel-meta">
+                    May 21, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/">A Bipartisan Amendment Would End Police License Plate Tracking Nationwide</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Data Breaches</h2>
+        </div>
+
+        <div class="intel-grid">
+            
+            <article class="intel-card">
+                <h3><a href="/posts/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/">Lawmakers Demand Answers as CISA Tries to Contain Data Leak</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/cisa-security-leak/">CISA Security Leak</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/grafana-github-breach-exposes-source-code-via-tanstack-npm-attack/">Grafana GitHub Breach Exposes Source Code via TanStack npm Attack</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/you-can-get-some-of-your-nudes-removed-from-the-internet-under-a-new-law/">You Can Get Some of Your Nudes Removed From the Internet Under a New Law</a></h3>
+                <div class="intel-meta">
+                    May 19, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/cisa-admin-leaked-aws-govcloud-keys-on-github/">CISA Admin Leaked AWS GovCloud Keys on Github</a></h3>
+                <div class="intel-meta">
+                    May 18, 2026
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>CVEs</h2>
+        </div>
+
+        <div class="intel-grid">
+            
+            <article class="intel-card">
+                <h3><a href="/posts/ghostwriter-targets-ukraine-government-entities-with-prometheus-phishing-malware/">Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/megalodon-github-attack-targets-5561-repos-with-malicious-cicd-workflows/">Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/making-vulnerable-drivers-exploitable-without-hardware---the-byovd-perspective/">Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/cloud-atlas-activity-in-the-second-half-of-2025-and-early-2026-new-tools-and-a-new-payload/">Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/cisa-adds-exploited-langflow-and-trend-micro-apex-one-vulnerabilities-to-kev/">CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV</a></h3>
+                <div class="intel-meta">
+                    May 22, 2026
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Malware</h2>
+        </div>
+
+        <div class="intel-grid">
+            
+            <article class="intel-card">
+                <h3><a href="/posts/github-internal-repositories-breached-via-malicious-nx-console-vs-code-extension/">GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension</a></h3>
+                <div class="intel-meta">
+                    May 21, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/microsoft-takes-down-malware-signing-service-behind-ransomware-attacks/">Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/webworm-deploys-echocreep-and-graphworm-backdoors-using-discord-and-ms-graph-api/">Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/github-breached--employee-device-hack-led-to-exfiltration-of-3800-internal-repos/">GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800&#43; Internal Repos</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/it-threat-evolution-in-q1-2026-mobile-statistics/">IT threat evolution in Q1 2026. Mobile statistics</a></h3>
+                <div class="intel-meta">
+                    May 18, 2026
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+    
+    <section class="intel-section">
+        <div class="page-header">
+            <h2>Research</h2>
+        </div>
+
+        <div class="intel-grid">
+            
+            <article class="intel-card">
+                <h3><a href="/posts/on-ai-security/">On AI Security</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/">Data Brokers’ and AI Firms’ Opt-Out Forms Are Built to Fail, Report Finds</a></h3>
+                <div class="intel-meta">
+                    May 20, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/laurie-anderson-is-quoting-me/">Laurie Anderson Is Quoting Me</a></h3>
+                <div class="intel-meta">
+                    May 19, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/zero-day-exploit-against-windows-bitlocker/">Zero-Day Exploit Against Windows BitLocker</a></h3>
+                <div class="intel-meta">
+                    May 18, 2026
+                </div>
+            </article>
+            
+            <article class="intel-card">
+                <h3><a href="/posts/friday-squid-blogging-bigfin-squid/">Friday Squid Blogging: Bigfin Squid</a></h3>
+                <div class="intel-meta">
+                    May 16, 2026
+                </div>
+            </article>
+            
+        </div>
+    </section>
 
 </div>
 
