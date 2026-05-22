@@ -6,8 +6,22 @@
     <description>Recent content in Categories on DedSec-Terminal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 16:34:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 17:35:02 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cves</title>
+      <link>http://localhost:1313/categories/cves/</link>
+      <pubDate>Fri, 22 May 2026 17:35:02 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cves/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Threat-Intel</title>
+      <link>http://localhost:1313/categories/threat-intel/</link>
+      <pubDate>Fri, 22 May 2026 17:24:52 +0000</pubDate>
+      <guid>http://localhost:1313/categories/threat-intel/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data-Breaches</title>
       <link>http://localhost:1313/categories/data-breaches/</link>
@@ -16,17 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cves</title>
-      <link>http://localhost:1313/categories/cves/</link>
-      <pubDate>Fri, 22 May 2026 16:20:32 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cves/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Threat-Intel</title>
-      <link>http://localhost:1313/categories/threat-intel/</link>
-      <pubDate>Fri, 22 May 2026 08:50:18 +0000</pubDate>
-      <guid>http://localhost:1313/categories/threat-intel/</guid>
+      <title>Research</title>
+      <link>http://localhost:1313/categories/research/</link>
+      <pubDate>Fri, 22 May 2026 11:38:12 +0000</pubDate>
+      <guid>http://localhost:1313/categories/research/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +41,6 @@
       <link>http://localhost:1313/categories/malware/</link>
       <pubDate>Thu, 21 May 2026 04:27:01 +0000</pubDate>
       <guid>http://localhost:1313/categories/malware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:1313/categories/research/</link>
-      <pubDate>Wed, 20 May 2026 14:21:20 +0000</pubDate>
-      <guid>http://localhost:1313/categories/research/</guid>
       <description></description>
     </item>
   </channel>
