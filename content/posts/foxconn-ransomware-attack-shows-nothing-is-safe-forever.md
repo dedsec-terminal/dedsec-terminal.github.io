@@ -11,7 +11,7 @@ Foxconn is the type of target that is particularly appealing to ransomware and d
 
 ---
 
-> *Meditation brings wisdom; lack of mediation leaves ignorance. Know well what leads you forward and what hold you back, and choose the path that leads to wisdom.
+> *All that we are is the result of what we have thought. The mind is everything. What we think we become.
 Author: Buddha*
 
 Source: [Foxconn Ransomware Attack Shows Nothing Is Safe Forever](https://www.wired.com/story/foxconn-ransomware-attack-shows-nothing-is-safe-forever/)

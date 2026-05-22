@@ -6,13 +6,13 @@ categories:
   - data-breaches
 ---
 
-A cybersecurity article reports a significant security leak at the Cybersecurity & Infrastructure Security Agency (CISA). A contractor for CISA had a public GitHub repository that exposed credentials to highly privileged AWS GovCloud accounts and internal CISA systems. The repository included sensitive information on how CISA builds, tests, and deploys software, making it one of the most severe government data leaks in recent history.
+A cybersecurity article reports a significant security leak at the Cybersecurity & Infrastructure Security Agency (CISA). A contractor for CISA had a public GitHub repository that exposed credentials to highly privileged AWS GovCloud accounts and internal CISA systems. The repository included sensitive information on how CISA builds, tests, and deploys software internally. This leak is considered one of the most severe government data breaches in recent history.
 
-The article is followed by a commentary criticizing the US government's approach to hiring and appointments, suggesting that loyalty is prioritized over expertise and qualifications, leading to incompetent individuals being in charge of vital systems. The author argues that this approach has resulted in worse-qualified individuals replacing those who were previously in charge, ultimately harming the general public who finances the government's operations.
+The article is followed by a commentary criticizing the US government's approach to hiring and appointments, suggesting that loyalty is prioritized over expertise and skill level, leading to unqualified individuals being placed in vital positions. The author argues that this approach has led to a decline in competence and an increase in security risks, ultimately affecting the citizens who fund the government.
 
 ---
 
-> *Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement.
-Author: Ralph Marston*
+> *Every man takes the limits of his own field of vision for the limits of the world.
+Author: Arthur Schopenhauer*
 
 Source: [CISA Security Leak](https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html)

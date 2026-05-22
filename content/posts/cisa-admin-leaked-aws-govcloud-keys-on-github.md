@@ -6,19 +6,13 @@ categories:
   - data-breaches
 ---
 
-A cybersecurity article reports that a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) accidentally leaked highly sensitive credentials, including AWS GovCloud keys, on a public GitHub repository. The repository, named "Private-CISA," contained internal CISA systems, cloud keys, tokens, plaintext passwords, logs, and other sensitive assets. The leak is considered one of the most egregious government data leaks in recent history.
-
-The leak was discovered by a researcher from the security firm GitGuardian, who notified CISA and KrebsOnSecurity. The exposed credentials included administrative access to three Amazon AWS GovCloud servers and plaintext usernames and passwords for dozens of internal CISA systems.
-
-The contractor, who worked for the government contractor Nightwing, had disabled GitHub's default setting that blocks users from publishing sensitive information in public code repositories. The leak is attributed to poor security hygiene, with passwords stored in plain text and backups stored in the GitHub repository.
-
-CISA has acknowledged the incident and is investigating, stating that there is no indication that sensitive data was compromised. However, the agency has faced criticism for its handling of the incident, with some attributing the leak to funding cuts and staffing shortages.
-
-The incident has raised concerns about the agency's ability to protect sensitive information and has eroded confidence in its ability to provide cybersecurity guidance to the industry. The leak is seen as a textbook example of poor security practices, and the fact that it occurred at the agency responsible for promoting cybersecurity best practices has been widely criticized.
+Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.
+On May 15, KrebsOnSecurity heard from Guillaume Valadon, a researcher with the security firm GitGuardian. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. Valadon said he reached out because the owner in this case wasn’t responding and the information exposed was highly sensitive.
+The
 
 ---
 
-> *He who obtains has little. He who scatters has much.
-Author: Richard Braunstein*
+> *Once you choose hope, anythings possible.
+Author: Christopher Reeve*
 
 Source: [CISA Admin Leaked AWS GovCloud Keys on Github](https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/)

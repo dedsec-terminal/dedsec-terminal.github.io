@@ -6,23 +6,23 @@ categories:
   - research
 ---
 
-The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and standards, may not be effective for AI systems. 
+The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and penetration testing, are not effective for AI systems. 
 
-A commenter, Clive Robinson, expands on this idea by discussing the difficulties of measuring complex systems, particularly those that involve continuous values and spectrums. He notes that AI systems, which rely on these spectrums, are inherently unmeasurable and untrustable due to the complexity of their internal workings.
+A commenter, Clive Robinson, expands on this idea by explaining that measuring information in AI systems is complex due to the continuous values and spectrums involved. He references the "continuum hypothesis" and notes that the set of real numbers, which is used in AI systems, has a different cardinality than natural numbers. This makes it difficult to measure and trust the output of LLMs.
 
 The main points of the article and comment are:
 
-1. **Measuring AI security is challenging**: Traditional software security measurement methods may not be effective for AI systems.
-2. **Complexity of AI systems**: AI systems, particularly LLMs and ML, involve complex spectrums and continuous values that are difficult to measure.
-3. **Untrustability of AI systems**: The complexity of AI systems makes them inherently untrustable, as their internal workings are difficult to understand and measure.
-4. **Limitations of current methods**: Current methods for measuring AI security, such as benchmarks and standards, are insufficient due to the complexity of AI systems.
-5. **Observer problem**: The commenter notes that the "observer problem" also applies to human-designed systems, making it impossible to measure the "information trust" of humans or the systems they design.
+1. **Measuring AI security is challenging**: Traditional software security measurement methods are not effective for AI systems.
+2. **Complexity of continuous values**: AI systems deal with continuous values and spectrums, making it difficult to measure and trust their output.
+3. **Limitations of current AI systems**: Current LLMs and ML systems are not trustworthy due to the complexity of their internal workings and the potential for biased or unmeasurable outputs.
+4. **Observer problem**: The "observer problem" in physics and information theory suggests that an observer cannot determine if the information they receive contains hidden secrets or sub-channels.
+5. **Guardrails are subvertable**: Any attempts to add "guardrails" or restrictions to LLMs can be subverted by those who use them, making it impossible to fully trust these systems.
 
-Overall, the article and comment suggest that the current state of AI security is uncertain and that new approaches are needed to address the unique challenges of measuring and securing AI systems.
+Overall, the article and comment highlight the difficulties of ensuring security and trust in AI systems, particularly those using LLMs and ML. They suggest that new approaches are needed to address these challenges and provide more reliable and trustworthy AI systems.
 
 ---
 
-> *The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back.
-Author: Seneca*
+> *Listen to your intuition. It will tell you everything you need to know.
+Author: Anthony D'Angelo*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)

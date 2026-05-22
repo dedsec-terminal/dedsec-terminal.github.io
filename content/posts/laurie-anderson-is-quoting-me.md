@@ -6,13 +6,18 @@ categories:
   - research
 ---
 
-The article discusses a quote about technology and problem-solving that has been attributed to the author, but actually originated from cryptologist Roger Needham. The quote, in its original form, states: "If you think cryptography can solve your problem, you don't understand your problem and you don't understand cryptography." The author modified the quote in their 2000 book "Secrets and Lies" to: "If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology." Over time, the author shortened the quote to: "If you think technology will solve your problem, you don't understand your problem and you don't understand technology."
-
-The quote gained attention when artist Laurie Anderson quoted it in one of her tracks and interviews, without attributing it to the author or Roger Needham. The author notes that they should have credited Needham by name when they first used the quote. Further research revealed that even Needham and others were unsure of the quote's origin, with some attributing it to Robert Morris or Butler Lampson. The article highlights the complexities of quote attribution and the evolution of ideas over time.
+Laurie Anderson Is Quoting Me
+Not by name, but Laurie Anderson quotes me in one of the tracks of her new album:
+My favorite quote is from a cryptologist who said “If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.”
+Also in interviews:
+“Of course, it’s ridiculous, outrageous, blah, blah, blah,” Anderson says about the ad. ‘But, I mean, my favorite quote on this is from a cryptologist who said, ‘If you think technology will solve your problems, you don’t understand technology Â and you don’t understand your problems.’ And I think I’m completely on board with that.”
+People are telling me that she has been reciting this quote in performances for years. (I lost track of her since college and her 1981 hit “O Superman.”)
+The origins of the quote is from Roger Needham:
+If you think cryptography can solve your problem, you don
 
 ---
 
-> *With the realization of ones own potential and self-confidence in ones ability, one can build a better world.
-Author: Dalai Lama*
+> *Victory belongs to the most persevering.
+Author: Napoleon Bonaparte*
 
 Source: [Laurie Anderson Is Quoting Me](https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html)
