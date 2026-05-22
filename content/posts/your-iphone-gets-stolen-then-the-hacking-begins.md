@@ -6,30 +6,24 @@ categories:
   - data-breaches
 ---
 
-A recent cybersecurity study has uncovered a thriving underground market for stolen iPhones, where criminals can purchase "unlocking" tools and phishing services to gain access to the devices. The study, conducted by researchers at Infoblox, found that dozens of groups are selling these tools, mostly focused on iPhones, and have linked over 10,000 phishing websites to the activity. The average cost of these tools is below $10, and the researchers believe that many of the people buying these tools are not large-scale thieves, but rather individuals looking to unlock a single device.
+A recent cybersecurity study by Infoblox has uncovered a thriving underground market for stolen iPhones, where criminals can purchase "unlocking" tools and phishing services to gain access to the devices. The study found that thousands of iPhones are stolen every year, and while some are sold for parts, others are unlocked and resold for a higher profit. The researchers identified dozens of groups selling unlocking tools, mostly focused on iPhones, and linked over 10,000 phishing websites to the activity.
 
-The study found that the tools and services being sold include:
+The phishing services use social engineering tactics to trick the phone's owner into revealing their passcode or other sensitive information, allowing the thieves to unlock the device and access the owner's personal data, including bank accounts and crypto wallets. The average cost of these services is below $10, and the researchers found that people from all over the world are buying access to the pay-per-use software.
 
-* Unlocking tools that claim to jailbreak older iPhones or Android devices and pull owner information from phones
-* Phishing kits that can be used to access Apple iCloud accounts and remove them from phones
-* Scripts and AI voice calling software to run the phishing operations
+The study highlights the importance of taking simple steps to protect oneself from phone theft, such as activating built-in anti-theft features, keeping software updated, and using strong passwords. Additionally, being aware of one's surroundings when using phones in public can significantly reduce the harm caused if a phone is stolen.
 
-The researchers also found that many of the phishing messages being sent to iPhone owners are highly sophisticated, including accurate details about the missing device, such as its model, color, and storage capacity. The attackers are using social engineering tactics to trick the owners into revealing their PIN codes or other sensitive information.
+Some key findings from the study include:
 
-The study highlights the importance of taking simple steps to protect against phone theft, such as:
+* The number of phones being stolen has risen in recent years, with around 80,000 devices being taken in London in one year.
+* Apple and Google have improved their protections for stolen devices, but thieves can still make money from stolen handsets if they can unlock or access the device.
+* The underground market for stolen iPhones is a complex ecosystem, with multiple players involved in the supply chain.
+* The use of phishing tools and social engineering tactics is a common method for thieves to gain access to stolen devices.
 
-* Activating built-in anti-theft features
-* Keeping software updated
-* Using strong passwords
-* Being aware of surroundings when using phones in public
-
-Apple has improved device security in recent years, making most jailbreaks obsolete and hardening newer iPhones against attacks. However, the company has not commented on the specific issue of stolen iPhone unlocking services.
-
-The study's findings have led to the removal of several Telegram groups linked to the services, and experts are warning iPhone owners to be vigilant and cautious when receiving phishing messages or suspicious links.
+Overall, the study highlights the need for individuals to be vigilant and take steps to protect themselves from phone theft and cybercrime. By being aware of the risks and taking simple precautions, individuals can reduce the harm caused if their phone is stolen.
 
 ---
 
-> *The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident.
-Author: Charles Lamb*
+> *Never ignore a gut feeling, but never believe that it's enough.
+Author: Robert Heller*
 
 Source: [Your iPhone Gets Stolen. Then the Hacking Begins](https://www.wired.com/story/your-iphone-gets-stolen-then-the-hacking-begins/)

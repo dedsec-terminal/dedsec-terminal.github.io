@@ -12,19 +12,21 @@ GitHub has confirmed a breach of its internal repositories due to a malicious ve
 
 **Key Points:**
 
-1. **Malicious Extension**: The poisoned extension was available on the Visual Studio Marketplace for only 18 minutes, but it was enough to distribute a credential stealer capable of harvesting sensitive data.
-2. **Impact**: GitHub has no evidence of impact to customer information stored outside of its internal repositories, but some internal repositories contain customer information, such as support interactions.
+1. **Malicious Extension**: The poisoned extension was live on Visual Studio Marketplace for only 18 minutes, but it was enough to distribute a credential stealer capable of harvesting sensitive data from various sources.
+2. **Impact**: GitHub has no evidence of impact to customer information stored outside of its internal repositories, but some internal repositories may contain customer information, such as support interactions.
 3. **Response**: GitHub has taken steps to contain the incident, rotated critical secrets, and is continuing to monitor the situation for follow-on activity.
-4. **Threat Actor**: TeamPCP has gained notoriety for large-scale software supply chain attacks, targeting widely-used open-source projects and security-adjacent tools.
-5. **Security Concerns**: The incident highlights the need for deeper, more fundamental changes to securing developer tooling and open source distribution, as well as the risks associated with auto-update features in extension marketplaces.
+4. **Threat Actor**: TeamPCP, a cybercriminal group, has gained notoriety for large-scale software supply chain attacks, targeting widely-used open-source projects and security-adjacent tools.
+5. **Security Concerns**: The incident highlights the need for deeper, more fundamental changes to how developer tooling and open source distribution are secured, as well as the risks associated with auto-update features in extension marketplaces.
 
-**Quotes:**
+**Recommendations:**
 
-* "This incident highlights that there need to be deeper, more fundamental changes to how we and other maintainers need to think about securing developer tooling and open source distribution." - Jeff Cross, co-founder of Narwhal Technologies
-* "The trade-off stops making sense once you account for hostile/compromised publishers. Auto-update gives an attacker who controls a release a direct push channel into every machine running that extension." - Raphael Silva, Aikido security researcher
+1. **Developer Awareness**: Developers should be cautious when installing and updating extensions, and consider disabling auto-update features to prevent potential security risks.
+2. **Marketplace Security**: Extension marketplaces should impose review gates and waiting periods between updates to prevent malicious publishers from pushing compromised code to users.
+3. **Collaboration**: Open-source maintainers and security experts should work together to address the deeper structural problems around software supply chain security.
 
 ---
 
-> *Today is the tomorrow you worried about yesterday.*
+> *If you look into your own heart, and you find nothing wrong there, what is there to worry about? What is there to fear?
+Author: Confucius*
 
 Source: [GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension](https://thehackernews.com/2026/05/github-internal-repositories-breached.html)

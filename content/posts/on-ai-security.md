@@ -6,24 +6,24 @@ categories:
   - research
 ---
 
-The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security benchmarks are not effective for measuring AI capabilities, including security. 
+The article discusses the challenges of measuring security in Artificial Intelligence (AI) systems, particularly those using Large Language Models (LLMs) and Machine Learning (ML). The author argues that traditional software security measurement methods, such as benchmarks and maturity models, are not effective for AI systems. 
 
-The main points are:
+A commenter, Clive Robinson, expands on this idea by discussing the difficulties of measuring complex systems, particularly those that involve continuous values and spectrums. He explains that AI systems, which rely on these spectrums, are inherently unmeasurable and untrustable due to the complexity of their internal workings.
 
-1. **Measuring security is complex**: The article highlights that measuring security in AI systems is not straightforward, and traditional methods used for software security may not apply.
-2. **Limitations of benchmarks**: Benchmarks are not effective for measuring AI capabilities, including security, as they do not account for the complexity and nuances of AI systems.
-3. **Cardinality and continuous values**: The article discusses the difference between measuring information by cardinality (using natural numbers) and dealing with continuous values that form a spectrum (using real numbers).
-4. **Continuum hypothesis**: The article mentions the continuum hypothesis, which is a mathematical concept that deals with the cardinality of infinite sets, including the set of real numbers.
-5. **Trust issues with LLMs and ML**: The author argues that LLMs and ML systems are not trustworthy due to the complexity of the spectrums encoded in their weights, which are dependent on the input to the ML process.
-6. **Unmeasurable and untrustable outputs**: The article concludes that the outputs of LLMs are currently unmeasurable and untrustable, and that it is not possible to measure the "information trust" of humans or the systems they design.
-7. **Observer problem**: The author mentions the observer problem, which states that an observer cannot determine if what they see contains hidden channels or secrets.
-8. **Subvertable guardrails**: The article argues that guardrails put around LLMs can always be subverted by those who use them, making it impossible to fully trust these systems.
+The main points of the article and comment are:
 
-Overall, the article highlights the significant challenges and limitations of measuring security in AI systems, particularly those using LLMs and ML, and argues that these systems can never be fully trusted.
+1. **Traditional security measurement methods are not effective for AI systems**: Benchmarks and maturity models, which have been used to measure software security, are not suitable for AI systems.
+2. **AI systems are complex and difficult to measure**: The use of continuous values and spectrums in AI systems makes it challenging to measure their security and trustworthiness.
+3. **The continuum hypothesis and cardinality**: The commenter discusses the mathematical concept of the continuum hypothesis and how it relates to the measurement of complex systems.
+4. **Untrustable AI systems**: The commenter argues that AI systems, particularly LLMs and ML systems, are inherently untrustable due to their complexity and the inability to measure their internal workings.
+5. **The observer problem**: The commenter mentions the "observer problem," which states that an observer cannot determine if what they see contains hidden channels or secrets.
+6. **Guardrails are subvertable**: The commenter notes that any attempts to put "guardrails" around AI systems to restrict their behavior will always be subvertable by those who use them.
+
+Overall, the article and comment highlight the challenges of ensuring the security and trustworthiness of AI systems and the need for new approaches to measuring and evaluating their security.
 
 ---
 
-> *Everything in the universe goes by indirection. There are no straight lines.
-Author: Ralph Emerson*
+> *Don't compromise yourself. You are all you've got.
+Author: Janis Joplin*
 
 Source: [On AI Security](https://www.schneier.com/blog/archives/2026/05/on-ai-security.html)
