@@ -8,36 +8,23 @@ categories:
 
 **GitHub Internal Repositories Breach**
 
-GitHub has confirmed a breach of its internal repositories due to a compromised employee device. The breach occurred when an employee installed a malicious version of the Nx Console VS Code extension, which was poisoned by a cybercriminal group known as TeamPCP. The extension, nrwl.angular-console, was compromised after one of its developers' systems was hacked in the wake of the recent TanStack supply chain attack.
+GitHub has confirmed a breach of its internal repositories due to a malicious version of the Nx Console VS Code extension. The extension, nrwl.angular-console, was compromised after one of its developers' systems was hacked in the wake of the recent TanStack supply chain attack. The breach allowed the threat actor, TeamPCP, to exfiltrate approximately 3,800 repositories.
 
-**Key Facts:**
+**Key Points:**
 
-1. The breach allowed the threat actor to exfiltrate approximately 3,800 repositories.
-2. GitHub has taken steps to contain the incident and rotated critical secrets.
-3. The company has no evidence of impact to customer information stored outside of GitHub's internal repositories.
-4. The malicious extension was live on Visual Studio Marketplace for only 18 minutes, but was enough to distribute a credential stealer capable of harvesting sensitive data.
+1. **Malicious Extension**: The poisoned extension was available on the Visual Studio Marketplace for only 18 minutes, but it was enough to distribute a credential stealer capable of harvesting sensitive data.
+2. **Impact**: GitHub has no evidence of impact to customer information stored outside of its internal repositories, but some internal repositories contain customer information, such as support interactions.
+3. **Response**: GitHub has taken steps to contain the incident, rotated critical secrets, and is continuing to monitor the situation for follow-on activity.
+4. **Threat Actor**: TeamPCP has gained notoriety for large-scale software supply chain attacks, targeting widely-used open-source projects and security-adjacent tools.
+5. **Security Concerns**: The incident highlights the need for deeper, more fundamental changes to securing developer tooling and open source distribution, as well as the risks associated with auto-update features in extension marketplaces.
 
-**Attack Method:**
+**Quotes:**
 
-1. The attackers compromised the Nx Console extension by hacking into one of its developers' systems.
-2. The poisoned extension was uploaded to the Visual Studio Marketplace, where it was available for 18 minutes.
-3. During this time, the extension was downloaded and installed by some users, who unknowingly executed a hidden package that stole sensitive data.
-
-**Consequences:**
-
-1. The breach highlights the need for deeper, more fundamental changes to how developer tooling and open-source distribution are secured.
-2. The incident demonstrates the interlinked nature of modern software, allowing attackers to unleash a self-sustaining cycle of new compromises.
-3. The use of auto-update features in extension marketplaces can provide a direct push channel for attackers to compromise user machines.
-
-**Response:**
-
-1. GitHub is continuing to monitor the situation for follow-on activity.
-2. The company is working with other high-profile open-source maintainers to address deeper structural problems around software supply chain security.
-3. Users are advised to be cautious when installing extensions and to keep their software up to date to minimize the risk of compromise.
+* "This incident highlights that there need to be deeper, more fundamental changes to how we and other maintainers need to think about securing developer tooling and open source distribution." - Jeff Cross, co-founder of Narwhal Technologies
+* "The trade-off stops making sense once you account for hostile/compromised publishers. Auto-update gives an attacker who controls a release a direct push channel into every machine running that extension." - Raphael Silva, Aikido security researcher
 
 ---
 
-> *Almost everything comes from nothing.
-Author: Henri Amiel*
+> *Today is the tomorrow you worried about yesterday.*
 
 Source: [GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension](https://thehackernews.com/2026/05/github-internal-repositories-breached.html)
