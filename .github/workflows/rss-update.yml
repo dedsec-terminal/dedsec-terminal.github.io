@@ -39,7 +39,7 @@ jobs:
           git config user.name "DedSec-Terminal Bot"
           git config user.email "actions@github.com"
 
-          git add content/posts data
+          git add content/posts .seen_posts.json
 
           git commit -m "RSS Intel Update" || echo "No changes"
           git push
