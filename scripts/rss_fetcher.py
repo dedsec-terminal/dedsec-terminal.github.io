@@ -32,7 +32,6 @@ RSS_FEEDS = [
     "https://www.schneier.com/feed/atom/",
     "https://www.wired.com/feed/category/security/rss",
     "https://databreaches.net/feed/",
-    "https://www.troyhunt.com/rss/",
     "https://www.cisa.gov/cybersecurity-advisories/all.xml",
     "https://www.cisa.gov/uscert/ncas/alerts.xml",
     "https://www.zerodayinitiative.com/rss/published/",
