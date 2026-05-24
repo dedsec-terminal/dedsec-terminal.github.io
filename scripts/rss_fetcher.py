@@ -32,9 +32,18 @@ RSS_FEEDS = [
     "https://www.schneier.com/feed/atom/",
     "https://www.wired.com/feed/category/security/rss",
     "https://databreaches.net/feed/",
-    "https://torrents.ddosecrets.org/releases.xml",
+    "https://www.troyhunt.com/rss/",
     "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "https://www.cisa.gov/uscert/ncas/alerts.xml",
     "https://www.zerodayinitiative.com/rss/published/",
+    "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml",
+    "https://blog.talosintelligence.com/feeds/posts/default",
+    "https://unit42.paloaltonetworks.com/feed/",
+    "https://cloud.google.com/blog/topics/threat-intelligence/rss/",
+    "https://www.darkreading.com/rss.xml",
+    "https://www.securityweek.com/feed/",
+    "https://www.helpnetsecurity.com/feed/",
+    
 ]
 
 MIN_POSTS_PER_CATEGORY = 3
