@@ -49,11 +49,103 @@ RSS_FEEDS = [
 MIN_POSTS_PER_CATEGORY = 3
 
 CATEGORY_KEYWORDS = {
-    "threat-intel": ["apt","threat","campaign","espionage","attacker","botnet","actor"],
-    "data-breaches": ["breach","leak","exposed","database","stolen","data leak"],
-    "cves": ["cve-","vulnerability","exploit","rce","kev","security flaw"],
-    "malware": ["malware","ransomware","trojan","loader","worm","rootkit","payload"],
-    "research": ["research","analysis","report","study","deep dive"],
+    "threat-intel": [
+        # Threat actors / campaigns
+        "apt", "threat actor", "threat group",
+        "campaign", "espionage", "nation-state",
+        "actor", "intrusion", "compromise",
+        "operation", "targeted attack",
+        "cyberattack", "attacker", "threat intelligence",
+        "iocs", "ttp", "kill chain",
+        "command and control", "c2",
+        "lateral movement", "credential theft",
+        "initial access", "persistence",
+
+        # Common actor names
+        "lazarus", "apt28", "apt29",
+        "cozy bear", "fancy bear",
+        "sandworm", "mustang panda",
+        "kimsuky", "volt typhoon",
+        "ghostwriter", "lockbit",
+        "black basta", "clop"
+    ],
+
+    "data-breaches": [
+        "breach", "data breach",
+        "leak", "data leak",
+        "exposed", "exposure",
+        "database leak", "database exposed",
+        "compromised", "customer data",
+        "records exposed", "unauthorized access",
+        "credential leak", "sensitive information",
+        "stolen data", "dumped",
+        "hack exposed", "privacy incident",
+        "information disclosure",
+        "pii", "personally identifiable information",
+        "email addresses leaked",
+        "password dump", "ransom payment"
+    ],
+
+    "cves": [
+        "cve-", "vulnerability",
+        "zero-day", "0day",
+        "exploit", "exploited",
+        "actively exploited",
+        "rce", "remote code execution",
+        "privilege escalation",
+        "kev", "known exploited vulnerability",
+        "security flaw", "patch",
+        "patch tuesday",
+        "authentication bypass",
+        "sandbox escape",
+        "command injection",
+        "sql injection",
+        "xss", "csrf",
+        "memory corruption",
+        "buffer overflow",
+        "arbitrary code execution",
+        "use-after-free",
+        "heap overflow",
+        "kernel flaw",
+        "firmware flaw"
+    ],
+
+    "malware": [
+        "malware", "ransomware",
+        "trojan", "worm",
+        "rootkit", "spyware",
+        "stealer", "infostealer",
+        "dropper", "payload",
+        "loader", "implant",
+        "botnet", "backdoor",
+        "rat", "remote access trojan",
+        "keylogger", "malicious code",
+        "cryptominer", "banking trojan",
+        "malspam", "wiper",
+        "cobalt strike", "emotet",
+        "qakbot", "trickbot",
+        "dridex", "darkgate",
+        "lockbit", "blackcat",
+        "akira", "ransom note"
+    ],
+
+    "research": [
+        "research", "analysis",
+        "report", "study",
+        "deep dive", "technical analysis",
+        "whitepaper", "findings",
+        "security research",
+        "investigation",
+        "case study",
+        "methodology",
+        "benchmark",
+        "statistics",
+        "annual report",
+        "quarterly report",
+        "trend analysis",
+        "forecast",
+        "insights"
+    ],
 }
 
 session = requests.Session()
