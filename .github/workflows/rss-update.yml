@@ -2,8 +2,8 @@ name: RSS Intel Pipeline
 
 on:
   schedule:
-    # Every 12 hours
-    - cron: "0 */12 * * *"
+    # Run once a day at midnight UTC
+    - cron: "0 0 * * *"
 
   workflow_dispatch:
 
@@ -17,9 +17,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  rss:
+  # Job 1: Fetch RSS feeds, update data, and build the static site
+  build:
     runs-on: ubuntu-latest
-
+    outputs:
+      changed: ${{ steps.commit_changes.outputs.changed }}
+    
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -88,6 +91,16 @@ jobs:
         with:
           path: ./public
 
+  # Job 2: Deploy the built artifact to GitHub Pages (Only runs if changes were made)
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
       - name: Deploy Pages
-        if: steps.commit_changes.outputs.changed == 'true'
+        id: deployment
         uses: actions/deploy-pages@v4
